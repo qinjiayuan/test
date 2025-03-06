@@ -31,11 +31,4 @@ if __name__ == '__main__':
     pytest.main()
 
     os.system("allure serve report/data ")
-#这是我刚刚提交的
-#我刚刚在提交一次
-
-##123123123
-#123123213213123
-
-
-# 321312132132
+#test_01
