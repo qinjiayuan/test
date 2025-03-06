@@ -1,0 +1,11 @@
+api:将来会存放所有业务接口
+testcase：用来所有的测试用例脚本的
+common:用来管理底层封装 , 如数据库封装，日志封装等
+data :用来存放测试数据
+config:用来存放配置文件
+logs:用来存放日志文件
+report:用来存放测试报告
+conftest：用来存放pytest的配置文件
+pytest.ini：用来存放pytest的配置文件
+run.py :作为框架的执行入口 
+

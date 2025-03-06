@@ -1,0 +1,27 @@
+common:
+  #存放登录令牌的信息
+  buyName: shamo
+  buyerPassword: mtx_9607
+  captcha: "1512"
+  sellerName: shamoseller
+  sellerPassword: mtxseller
+  managerName: admin
+  managerPassword: mtx_15908
+  mobile_code: '908908'
+
+http:
+  #存放各种角色的ip地址
+  basic: http://59.36.173.55:7000
+  buyer: http://59.36.173.55:7002
+  manager: http://59.36.173.55:7004
+  seller: http://59.36.173.55:7003
+
+db:
+  config: { "host": "192.168.78.128",
+            "user": "root",
+            "password": "123456",
+            "port": 3306,
+            "db": "otc",
+            "charset": 'utf8mb4',
+  } #能够吧每个字段的名字当成一个字典形式
+

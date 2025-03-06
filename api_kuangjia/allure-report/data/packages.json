@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase.buyer.test_001_buy_now",
+    "children" : [ {
+      "name" : "test_buy_now",
+      "uid" : "9ea6f4423192abe4",
+      "parentUid" : "7c619911a951e91c53324f9d325378eb",
+      "status" : "failed",
+      "time" : {
+        "start" : 1740226743981,
+        "stop" : 1740226744233,
+        "duration" : 252
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testcase.buyer.test_001_buy_now"
+  } ]
+}

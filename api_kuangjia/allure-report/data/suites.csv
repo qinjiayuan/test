@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Sat Feb 22 20:19:03 CST 2025","Sat Feb 22 20:19:04 CST 2025","252","testcase.buyer","test_001_buy_now","TestBuyNowApi","","","test_buy_now",""

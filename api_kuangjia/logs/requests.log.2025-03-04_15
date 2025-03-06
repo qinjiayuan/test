@@ -1,0 +1,1048 @@
+2025-03-04 13:58:29,494 [INFO] [apiautotest] [conftest.py:51] - 日志初始化成功
+2025-03-04 13:58:29,498 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 13:58:29,498 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/passport/login
+2025-03-04 13:58:29,498 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 13:58:29,498 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 13:58:29,498 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'username': 'shamo', 'password': 'd8c26d069c9950eec5cc79ab7b839821', 'captcha': '1512', 'uuid': 'fsfafdsf'}
+2025-03-04 13:58:29,499 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 13:58:29,499 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 13:58:29,499 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 13:58:29,707 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 13:58:29,708 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":59,"username":"shamo","nickname":"沙陌","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjg1MTMsInVzZXJuYW1lIjoic2hhbW8ifQ.1FURXVEPVL49PL6H4d3Aa7OsgtzZ8jO0JseMDR9gHQBZn40W-6AhEvM3p8YxNV97MmoHHCXcZWde34h8tlWCVQ","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkxMTMsInVzZXJuYW1lIjoic2hhbW8ifQ.pS-nAxmJx7m_O3ZIuUbw2vhFoj6yh7t3az7e6t_A9f-ogfYoV8SWweQZYK7P6JyfRHu8wqglc8iL8vuJ2624KQ","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/12/15/10/37495983.png"}
+2025-03-04 13:58:29,708 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 13:58:29,708 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7004/admin/systems/admin-users/login
+2025-03-04 13:58:29,708 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 13:58:29,709 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：None
+2025-03-04 13:58:29,709 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 13:58:29,709 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 13:58:29,710 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'admin', 'password': '78b157cf49d312ecf69d1335e8b589ef', 'captcha': '1512', 'uuid': 'fghfgfhfghfgh'}
+2025-03-04 13:58:29,710 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 13:58:29,791 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 13:58:29,791 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":1,"username":"admin","department":"admin","face":"http://javashop-statics.oss-cn-beijing.aliyuncs.com/v70/null/6127372723AF44AA827917048A0C4632.GIF","role_id":22,"founder":0,"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA2ODUxNCwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.3IGL0oJXe-pwYufcqokX1-3wbd6XedScJ36VFbmjQAfI-HnSZ_tr9y54EcSaKWiUA65HLHsQpFBSvKuFNaqnKA","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA2OTExNCwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.0FKdhR0nk23_eEZJuaclQZbrs3Cwd7Q8kvTyjRFakVVRDEB5Xhq6IaaJxOoOvMSvIgl5WEDAJ8s-eJEMHJ7Wdw"}
+2025-03-04 13:58:29,792 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 13:58:29,792 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/login
+2025-03-04 13:58:29,793 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 13:58:29,793 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 13:58:29,793 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 13:58:29,793 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 13:58:29,793 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'shamoseller', 'password': 'fafd8b5f5d11048e8078b66ab075acb3', 'captcha': '1512', 'uuid': 'fghjklkjhgfghjk'}
+2025-03-04 13:58:29,793 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 13:58:30,007 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 13:58:30,007 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":67,"username":"shamoseller","nickname":"shamoseller","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNjg1MTQsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.UEsjHO41kV-0CdwLOWA3NJoF6clJxsaB1vzRPkETj8VHcPzaw6Q4tiVf7lEGWNDwEBgG01pDLxrGDFtNrc4eEg","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNjkxMTQsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.NHnOCpoSZzD5q9__WMh48bNfeugqN7AGe903wtkKnOFoxBf_1t0VFsCXlDhxC8C-BAwGT8vZO7YXQAmkNzo_eA","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/9/2/11/00453826.png","role_id":0,"founder":1}
+2025-03-04 14:00:16,768 [INFO] [apiautotest] [conftest.py:51] - 日志初始化成功
+2025-03-04 14:00:16,769 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:00:16,769 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/passport/login
+2025-03-04 14:00:16,769 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:00:16,769 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 14:00:16,770 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'username': 'shamo', 'password': 'd8c26d069c9950eec5cc79ab7b839821', 'captcha': '1512', 'uuid': 'fsfafdsf'}
+2025-03-04 14:00:16,770 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:00:16,770 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:00:16,770 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:00:16,950 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 14:00:16,950 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":59,"username":"shamo","nickname":"沙陌","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjg2MjEsInVzZXJuYW1lIjoic2hhbW8ifQ.4MVe1azSVO-fZDqUZc1Oes4va32BBpJicU2-45Eu4_c54bT9SSz6EdUbjp2xZ2FBu9WeeCxm1jEWB19JJoswnQ","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkyMjEsInVzZXJuYW1lIjoic2hhbW8ifQ.ewFcsxbbEGSZUWjscPrmUC_wYNkRvFSqA2CCqgEdGYypj94CUtzEHp_2ADULFDpILXgPoyd_MWNrRsDi6mfmMw","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/12/15/10/37495983.png"}
+2025-03-04 14:00:16,951 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:00:16,951 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7004/admin/systems/admin-users/login
+2025-03-04 14:00:16,951 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 14:00:16,951 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：None
+2025-03-04 14:00:16,952 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 14:00:16,952 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:00:16,952 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'admin', 'password': '78b157cf49d312ecf69d1335e8b589ef', 'captcha': '1512', 'uuid': 'fghfgfhfghfgh'}
+2025-03-04 14:00:16,952 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:00:17,149 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 14:00:17,149 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":1,"username":"admin","department":"admin","face":"http://javashop-statics.oss-cn-beijing.aliyuncs.com/v70/null/6127372723AF44AA827917048A0C4632.GIF","role_id":22,"founder":0,"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA2ODYyMSwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.jfHcnwjVw78uOiM7B4bu0297hlqycNAwco4mV5UPHjmvrAnwARPQrvasy-sBFrP7p1C0xJgYKGTQHtQdU9OfCA","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA2OTIyMSwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.9kpNdOKltd0P3yGmWsJKmDj8Ikb3kPvo7qf2KE9_x4JoRuGImxqihef_wzmyxVwJ7JyRh_4DcpYPz5QKzYB8Ew"}
+2025-03-04 14:00:17,150 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:00:17,150 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/login
+2025-03-04 14:00:17,150 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 14:00:17,150 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 14:00:17,151 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 14:00:17,151 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:00:17,151 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'shamoseller', 'password': 'fafd8b5f5d11048e8078b66ab075acb3', 'captcha': '1512', 'uuid': 'fghjklkjhgfghjk'}
+2025-03-04 14:00:17,151 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:00:17,348 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 14:00:17,348 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":67,"username":"shamoseller","nickname":"shamoseller","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNjg2MjEsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.HFq7RtfAJDgZOMKILDBcpRAGqrbz8Ke__M3ud7EMsjE1dNV74hxzn5TiEgE8Gyt-P-TVR48454tidKI2CTesfg","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNjkyMjEsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.1tLQ271LYcvrSSf4BdJlIMFlku-ANIBXZHxdf4c8oOw5oGr5IsH9v4R4oFN7CxnKvHtObYJyZ6FtR1NBLlUFcA","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/9/2/11/00453826.png","role_id":0,"founder":1}
+2025-03-04 14:01:37,381 [INFO] [apiautotest] [conftest.py:51] - 日志初始化成功
+2025-03-04 14:01:37,382 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:01:37,382 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/passport/login
+2025-03-04 14:01:37,382 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:01:37,382 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 14:01:37,382 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'username': 'shamo', 'password': 'd8c26d069c9950eec5cc79ab7b839821', 'captcha': '1512', 'uuid': 'fsfafdsf'}
+2025-03-04 14:01:37,383 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:01:37,383 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:01:37,383 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:01:37,585 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 14:01:37,585 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":59,"username":"shamo","nickname":"沙陌","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjg3MDEsInVzZXJuYW1lIjoic2hhbW8ifQ.VAW8ZuZ1BZb2a1z14kmB_Z166g_NpACOZchhBhgQOsbesbQnaV2ycEl8ycDRQ2P36nVrwjyxnadD16X9vyme8A","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkzMDEsInVzZXJuYW1lIjoic2hhbW8ifQ.2FXczwW370xxjmO3nAIkkLTKsT4ISZQOMl0V59RklcvIPZ0hTAuj_ZPaiTFhV1GLJVSIhoRnKiOqWpQZIishfQ","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/12/15/10/37495983.png"}
+2025-03-04 14:01:37,585 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:01:37,586 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7004/admin/systems/admin-users/login
+2025-03-04 14:01:37,586 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 14:01:37,586 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：None
+2025-03-04 14:01:37,586 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 14:01:37,586 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:01:37,589 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'admin', 'password': '78b157cf49d312ecf69d1335e8b589ef', 'captcha': '1512', 'uuid': 'fghfgfhfghfgh'}
+2025-03-04 14:01:37,589 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:01:37,653 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 14:01:37,653 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":1,"username":"admin","department":"admin","face":"http://javashop-statics.oss-cn-beijing.aliyuncs.com/v70/null/6127372723AF44AA827917048A0C4632.GIF","role_id":22,"founder":0,"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA2ODcwMSwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.HwtCrAQtrAaIOzjbo6RlWC92usqQeKabeQhCHEzPSroBPoHD5tZAdrxBaNs9WN7hJwWHClJqasqXW3vUE7Eocg","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA2OTMwMSwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.rtyOgUegC4lifswg_cLRxcRR9Wric5x0KP-Fha9I0UGIr5j42FHBTFBgrTtFjCXiQOvbbaSHbTuWRxrm01l2Mw"}
+2025-03-04 14:01:37,654 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:01:37,654 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/login
+2025-03-04 14:01:37,654 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 14:01:37,654 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 14:01:37,654 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 14:01:37,654 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:01:37,655 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'shamoseller', 'password': 'fafd8b5f5d11048e8078b66ab075acb3', 'captcha': '1512', 'uuid': 'fghjklkjhgfghjk'}
+2025-03-04 14:01:37,655 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:01:37,847 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 14:01:37,847 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":67,"username":"shamoseller","nickname":"shamoseller","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNjg3MDIsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.HuVWA3onxyFGYw74C_2JaJ6-M4LnPYw_pnat8mHHaH_iB4EyOOH9JgGL7kkGMGIG3NBaYBKRHv6QevGIj2TPkA","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNjkzMDIsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.Ha68axCCbreRFtm7AMFiw-bTBVoy61qZb1y1neE14yJXuWANZToYAX8a7p7o51d9PklE5mMKbjuBuklb-zlmhQ","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/9/2/11/00453826.png","role_id":0,"founder":1}
+2025-03-04 14:01:37,861 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:01:37,861 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:01:37,861 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:01:37,862 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjg3MDEsInVzZXJuYW1lIjoic2hhbW8ifQ.VAW8ZuZ1BZb2a1z14kmB_Z166g_NpACOZchhBhgQOsbesbQnaV2ycEl8ycDRQ2P36nVrwjyxnadD16X9vyme8A'}
+2025-03-04 14:01:37,862 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:01:37,862 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:01:37,862 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:01:37,862 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:01:37,897 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:01:37,897 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:01:37,998 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:01:37,998 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:01:37,998 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:01:37,999 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjg3MDEsInVzZXJuYW1lIjoic2hhbW8ifQ.VAW8ZuZ1BZb2a1z14kmB_Z166g_NpACOZchhBhgQOsbesbQnaV2ycEl8ycDRQ2P36nVrwjyxnadD16X9vyme8A'}
+2025-03-04 14:01:37,999 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:01:37,999 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:01:37,999 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:01:37,999 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:01:38,056 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:01:38,056 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:01:38,086 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:01:38,087 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:01:38,087 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:01:38,087 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjg3MDEsInVzZXJuYW1lIjoic2hhbW8ifQ.VAW8ZuZ1BZb2a1z14kmB_Z166g_NpACOZchhBhgQOsbesbQnaV2ycEl8ycDRQ2P36nVrwjyxnadD16X9vyme8A'}
+2025-03-04 14:01:38,087 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:01:38,087 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:01:38,087 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:01:38,088 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:01:38,131 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:01:38,131 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:01:38,159 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:01:38,159 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:01:38,160 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:01:38,160 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjg3MDEsInVzZXJuYW1lIjoic2hhbW8ifQ.VAW8ZuZ1BZb2a1z14kmB_Z166g_NpACOZchhBhgQOsbesbQnaV2ycEl8ycDRQ2P36nVrwjyxnadD16X9vyme8A'}
+2025-03-04 14:01:38,160 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:01:38,160 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:01:38,160 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:01:38,160 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:01:38,206 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:01:38,206 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:01:38,231 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:01:38,232 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:01:38,232 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:01:38,232 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjg3MDEsInVzZXJuYW1lIjoic2hhbW8ifQ.VAW8ZuZ1BZb2a1z14kmB_Z166g_NpACOZchhBhgQOsbesbQnaV2ycEl8ycDRQ2P36nVrwjyxnadD16X9vyme8A'}
+2025-03-04 14:01:38,232 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:01:38,232 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:01:38,232 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:01:38,233 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:01:38,274 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:01:38,274 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:01:38,303 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:01:38,303 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:01:38,303 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:01:38,304 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjg3MDEsInVzZXJuYW1lIjoic2hhbW8ifQ.VAW8ZuZ1BZb2a1z14kmB_Z166g_NpACOZchhBhgQOsbesbQnaV2ycEl8ycDRQ2P36nVrwjyxnadD16X9vyme8A'}
+2025-03-04 14:01:38,304 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': 'sfdfsd2323', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:01:38,304 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:01:38,304 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:01:38,304 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:01:39,374 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：500
+2025-03-04 14:01:39,374 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"100","message":"会员地址已达20个上限，无法添加"}
+2025-03-04 14:02:50,264 [INFO] [apiautotest] [conftest.py:51] - 日志初始化成功
+2025-03-04 14:02:50,265 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:02:50,265 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/passport/login
+2025-03-04 14:02:50,265 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:02:50,266 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 14:02:50,266 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'username': 'shamo', 'password': 'd8c26d069c9950eec5cc79ab7b839821', 'captcha': '1512', 'uuid': 'fsfafdsf'}
+2025-03-04 14:02:50,266 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:02:50,266 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:02:50,266 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:02:50,480 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 14:02:50,480 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":59,"username":"shamo","nickname":"沙陌","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjg3NzQsInVzZXJuYW1lIjoic2hhbW8ifQ.1tb_O6514gPAECqsaDU4tXRP0o6yWYz5j4x7zNDwRxMEULS1EH9aI5CnPigN_jkzvF9zgyo81mZPvk0SgUxXsQ","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkzNzQsInVzZXJuYW1lIjoic2hhbW8ifQ.Pdbcda-Zr-4DqEyuu-H9seWE-Ci2bYf-GLKL-Tu0NMSbpkW7pX2A_-UDo6FFf1Wj4GI5QWJAngYBddatqnavRQ","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/12/15/10/37495983.png"}
+2025-03-04 14:02:50,481 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:02:50,481 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7004/admin/systems/admin-users/login
+2025-03-04 14:02:50,481 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 14:02:50,481 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：None
+2025-03-04 14:02:50,481 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 14:02:50,482 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:02:50,485 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'admin', 'password': '78b157cf49d312ecf69d1335e8b589ef', 'captcha': '1512', 'uuid': 'fghfgfhfghfgh'}
+2025-03-04 14:02:50,485 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:02:50,546 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 14:02:50,547 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":1,"username":"admin","department":"admin","face":"http://javashop-statics.oss-cn-beijing.aliyuncs.com/v70/null/6127372723AF44AA827917048A0C4632.GIF","role_id":22,"founder":0,"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA2ODc3NCwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.yWnqhS1mQ1WgmozM_uMMGP2Ds00hLPc_2I4JxM5hJNzuxiJEyoiaFBlehEAuXD2-vEYTPZ_CGom7KfJphOJ5RQ","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA2OTM3NCwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.TfCZP_j016CMnijqZpEkmRTmTvVhzhmMgngwZHv1dHxBjCV1vLEb49OS_7r5BxVw3cP8-QGCj_mpl11LAB4G9Q"}
+2025-03-04 14:02:50,547 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:02:50,547 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/login
+2025-03-04 14:02:50,547 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 14:02:50,548 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 14:02:50,548 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 14:02:50,548 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:02:50,548 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'shamoseller', 'password': 'fafd8b5f5d11048e8078b66ab075acb3', 'captcha': '1512', 'uuid': 'fghjklkjhgfghjk'}
+2025-03-04 14:02:50,548 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:02:50,752 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 14:02:50,752 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":67,"username":"shamoseller","nickname":"shamoseller","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNjg3NzQsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.D1GGSrlmdmapK3FdrelOqt-_3Oxn2B0YB9rvk-mDR3hftFZLBu6wpO_AN8RgVf5rb_RKPLgdMxj4qqAzO1VwDg","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNjkzNzUsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.Seyeedwg-6TryQKWm9jQ-aRzcximRrXjDLqlFP_2xvzTd8jusF6wzMemg8iueVquMERePyAWtoH21aBW4jFvIA","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/9/2/11/00453826.png","role_id":0,"founder":1}
+2025-03-04 14:02:50,766 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:02:50,766 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:02:50,766 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:02:50,766 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjg3NzQsInVzZXJuYW1lIjoic2hhbW8ifQ.1tb_O6514gPAECqsaDU4tXRP0o6yWYz5j4x7zNDwRxMEULS1EH9aI5CnPigN_jkzvF9zgyo81mZPvk0SgUxXsQ'}
+2025-03-04 14:02:50,767 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:02:50,767 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:02:50,767 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:02:50,767 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:02:50,800 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:02:50,800 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:02:50,898 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:02:50,898 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:02:50,898 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:02:50,898 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjg3NzQsInVzZXJuYW1lIjoic2hhbW8ifQ.1tb_O6514gPAECqsaDU4tXRP0o6yWYz5j4x7zNDwRxMEULS1EH9aI5CnPigN_jkzvF9zgyo81mZPvk0SgUxXsQ'}
+2025-03-04 14:02:50,899 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:02:50,899 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:02:50,899 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:02:50,899 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:02:51,948 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:02:51,948 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:02:51,974 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:02:51,974 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:02:51,974 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:02:51,974 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjg3NzQsInVzZXJuYW1lIjoic2hhbW8ifQ.1tb_O6514gPAECqsaDU4tXRP0o6yWYz5j4x7zNDwRxMEULS1EH9aI5CnPigN_jkzvF9zgyo81mZPvk0SgUxXsQ'}
+2025-03-04 14:02:51,975 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:02:51,975 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:02:51,975 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:02:51,975 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:02:52,023 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:02:52,024 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:02:52,049 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:02:52,049 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:02:52,049 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:02:52,049 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjg3NzQsInVzZXJuYW1lIjoic2hhbW8ifQ.1tb_O6514gPAECqsaDU4tXRP0o6yWYz5j4x7zNDwRxMEULS1EH9aI5CnPigN_jkzvF9zgyo81mZPvk0SgUxXsQ'}
+2025-03-04 14:02:52,049 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:02:52,050 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:02:52,050 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:02:52,050 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:02:52,093 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:02:52,093 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:02:52,119 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:02:52,119 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:02:52,119 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:02:52,119 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjg3NzQsInVzZXJuYW1lIjoic2hhbW8ifQ.1tb_O6514gPAECqsaDU4tXRP0o6yWYz5j4x7zNDwRxMEULS1EH9aI5CnPigN_jkzvF9zgyo81mZPvk0SgUxXsQ'}
+2025-03-04 14:02:52,120 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:02:52,120 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:02:52,120 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:02:52,120 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:02:52,157 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:02:52,158 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:02:52,184 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:02:52,184 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:02:52,185 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:02:52,185 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjg3NzQsInVzZXJuYW1lIjoic2hhbW8ifQ.1tb_O6514gPAECqsaDU4tXRP0o6yWYz5j4x7zNDwRxMEULS1EH9aI5CnPigN_jkzvF9zgyo81mZPvk0SgUxXsQ'}
+2025-03-04 14:02:52,185 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': 'sfdfsd2323', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:02:52,185 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:02:52,185 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:02:52,185 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:02:52,230 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：500
+2025-03-04 14:02:52,230 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"100","message":"会员地址已达20个上限，无法添加"}
+2025-03-04 14:09:14,598 [INFO] [apiautotest] [conftest.py:51] - 日志初始化成功
+2025-03-04 14:09:14,598 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:09:14,599 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/passport/login
+2025-03-04 14:09:14,599 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:09:14,599 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 14:09:14,599 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'username': 'shamo', 'password': 'd8c26d069c9950eec5cc79ab7b839821', 'captcha': '1512', 'uuid': 'fsfafdsf'}
+2025-03-04 14:09:14,599 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:09:14,599 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:09:14,600 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:09:14,811 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 14:09:14,811 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":59,"username":"shamo","nickname":"沙陌","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkxNTksInVzZXJuYW1lIjoic2hhbW8ifQ.N9Y21f5OTTftuRL2T82fqz7gB0GVqWxfwlTZwbomBqrseXh5uABjNEJYoJpefIga0nu6PE6ZIwEnUW1pij1RqA","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjk3NTksInVzZXJuYW1lIjoic2hhbW8ifQ.tENd-HQ0pVekgljJXEukAAxAPmEDDXxa0T8obJZcovet5-FBKdfvN5aXgz659KEjQdodYBaLrsoKkXqqN3ZFQQ","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/12/15/10/37495983.png"}
+2025-03-04 14:09:14,812 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:09:14,812 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7004/admin/systems/admin-users/login
+2025-03-04 14:09:14,812 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 14:09:14,812 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：None
+2025-03-04 14:09:14,812 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 14:09:14,812 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:09:14,814 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'admin', 'password': '78b157cf49d312ecf69d1335e8b589ef', 'captcha': '1512', 'uuid': 'fghfgfhfghfgh'}
+2025-03-04 14:09:14,814 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:09:15,016 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 14:09:15,017 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":1,"username":"admin","department":"admin","face":"http://javashop-statics.oss-cn-beijing.aliyuncs.com/v70/null/6127372723AF44AA827917048A0C4632.GIF","role_id":22,"founder":0,"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA2OTE1OSwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.706jCkyZy9HjMnMr61zsIcw1tFub773qUDsNl5BTx9T0QXHCoi-utEUQI4TWkbPi8PPooeOdEv0c0t2cCckeDA","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA2OTc1OSwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.aXTal1yJoOo0V9gzBLh3z1uuz0n0tl2S-d7K4pz2Z-sszbBNqPw8AA16gbnV4y8SaAytVhLdXXmrm4k5_wO4uw"}
+2025-03-04 14:09:15,017 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:09:15,017 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/login
+2025-03-04 14:09:15,018 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 14:09:15,018 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 14:09:15,018 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 14:09:15,018 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:09:15,018 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'shamoseller', 'password': 'fafd8b5f5d11048e8078b66ab075acb3', 'captcha': '1512', 'uuid': 'fghjklkjhgfghjk'}
+2025-03-04 14:09:15,018 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:09:16,391 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 14:09:16,391 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":67,"username":"shamoseller","nickname":"shamoseller","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNjkxNjAsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.tHaGM9klndzsLzU1xupIAyjc2WLQk66r3C2YtjvGCmvWskGENKF_QHq54cLXFovVaF2D-l52RrDNWwfc1_WT4w","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNjk3NjAsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.qwJHkB_gCkSx6fjJIdlAyVuqGAS0KNu_BE0LyRGjtRXcHpYHg5YXrl8TylzdaHvrN3BIzYawmPztuuNXnFvqaA","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/9/2/11/00453826.png","role_id":0,"founder":1}
+2025-03-04 14:09:16,405 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:09:16,405 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:09:16,405 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:09:16,405 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkxNTksInVzZXJuYW1lIjoic2hhbW8ifQ.N9Y21f5OTTftuRL2T82fqz7gB0GVqWxfwlTZwbomBqrseXh5uABjNEJYoJpefIga0nu6PE6ZIwEnUW1pij1RqA'}
+2025-03-04 14:09:16,405 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:09:16,406 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:09:16,406 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:09:16,406 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:09:16,567 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:09:16,567 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:09:16,661 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:09:16,661 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:09:16,661 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:09:16,661 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkxNTksInVzZXJuYW1lIjoic2hhbW8ifQ.N9Y21f5OTTftuRL2T82fqz7gB0GVqWxfwlTZwbomBqrseXh5uABjNEJYoJpefIga0nu6PE6ZIwEnUW1pij1RqA'}
+2025-03-04 14:09:16,662 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:09:16,662 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:09:16,662 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:09:16,662 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:09:16,719 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:09:16,720 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:09:16,746 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:09:16,746 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:09:16,747 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:09:16,747 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkxNTksInVzZXJuYW1lIjoic2hhbW8ifQ.N9Y21f5OTTftuRL2T82fqz7gB0GVqWxfwlTZwbomBqrseXh5uABjNEJYoJpefIga0nu6PE6ZIwEnUW1pij1RqA'}
+2025-03-04 14:09:16,747 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:09:16,747 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:09:16,747 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:09:16,747 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:09:16,791 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:09:16,791 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:09:16,817 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:09:16,817 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:09:16,817 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:09:16,817 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkxNTksInVzZXJuYW1lIjoic2hhbW8ifQ.N9Y21f5OTTftuRL2T82fqz7gB0GVqWxfwlTZwbomBqrseXh5uABjNEJYoJpefIga0nu6PE6ZIwEnUW1pij1RqA'}
+2025-03-04 14:09:16,818 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:09:16,818 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:09:16,818 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:09:16,818 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:09:17,870 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:09:17,870 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:09:17,895 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:09:17,896 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:09:17,896 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:09:17,896 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkxNTksInVzZXJuYW1lIjoic2hhbW8ifQ.N9Y21f5OTTftuRL2T82fqz7gB0GVqWxfwlTZwbomBqrseXh5uABjNEJYoJpefIga0nu6PE6ZIwEnUW1pij1RqA'}
+2025-03-04 14:09:17,896 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:09:17,896 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:09:17,897 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:09:17,897 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:09:17,941 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:09:17,942 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:09:17,969 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:09:17,969 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:09:17,970 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:09:17,970 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkxNTksInVzZXJuYW1lIjoic2hhbW8ifQ.N9Y21f5OTTftuRL2T82fqz7gB0GVqWxfwlTZwbomBqrseXh5uABjNEJYoJpefIga0nu6PE6ZIwEnUW1pij1RqA'}
+2025-03-04 14:09:17,970 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': 'sfdfsd2323', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:09:17,970 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:09:17,970 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:09:17,971 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:09:18,253 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：500
+2025-03-04 14:09:18,254 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"100","message":"会员地址已达20个上限，无法添加"}
+2025-03-04 14:11:10,422 [INFO] [apiautotest] [conftest.py:51] - 日志初始化成功
+2025-03-04 14:11:10,422 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:11:10,422 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/passport/login
+2025-03-04 14:11:10,423 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:11:10,423 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 14:11:10,423 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'username': 'shamo', 'password': 'd8c26d069c9950eec5cc79ab7b839821', 'captcha': '1512', 'uuid': 'fsfafdsf'}
+2025-03-04 14:11:10,423 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:11:10,423 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:11:10,423 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:11:10,614 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 14:11:10,615 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":59,"username":"shamo","nickname":"沙陌","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkyNzQsInVzZXJuYW1lIjoic2hhbW8ifQ.CFWgZqoUhVtvrapffvaXQRF7rc012EIaqE_iWgwQUBHivBJBHjQi6P7GdUyfmG3J-e1_IlP7Y58UaHjECcyZwg","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjk4NzQsInVzZXJuYW1lIjoic2hhbW8ifQ.nJkiI5U_5lAFvIY5sNOuzxaCiG0PPWgl2Hh7w_2cs7xYN2I2IHhUhto9D1IHgmkLmO1QcR-bwSI_Ywto9PaUbQ","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/12/15/10/37495983.png"}
+2025-03-04 14:11:10,615 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:11:10,615 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7004/admin/systems/admin-users/login
+2025-03-04 14:11:10,615 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 14:11:10,616 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：None
+2025-03-04 14:11:10,616 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 14:11:10,616 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:11:10,618 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'admin', 'password': '78b157cf49d312ecf69d1335e8b589ef', 'captcha': '1512', 'uuid': 'fghfgfhfghfgh'}
+2025-03-04 14:11:10,618 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:11:10,689 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 14:11:10,690 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":1,"username":"admin","department":"admin","face":"http://javashop-statics.oss-cn-beijing.aliyuncs.com/v70/null/6127372723AF44AA827917048A0C4632.GIF","role_id":22,"founder":0,"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA2OTI3NCwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.uflngpWFsQnu2seEo8Dr_LLEljoQhsb8zMHL0oOLkyw_jgU6mei3F8EqfXDCZxp48cUQyh6MVZQz5gXhuI8jHg","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA2OTg3NCwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.9hE6_abHuGEb8BnQchIgZC-fue-qwV4JGkK7EvFmTsmVbuqrDpsHyYy-m5VwYVsb0DCALy0hE1LlZ0jeoFy4TQ"}
+2025-03-04 14:11:10,690 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:11:10,690 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/login
+2025-03-04 14:11:10,691 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 14:11:10,691 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 14:11:10,691 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 14:11:10,691 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:11:10,691 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'shamoseller', 'password': 'fafd8b5f5d11048e8078b66ab075acb3', 'captcha': '1512', 'uuid': 'fghjklkjhgfghjk'}
+2025-03-04 14:11:10,691 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:11:10,890 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 14:11:10,890 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":67,"username":"shamoseller","nickname":"shamoseller","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNjkyNzUsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.WZqTn7XKR4aNo4u5mD7jhcYBKPYY8hWfg4D46b_6aLrTy2hEDJqsND4n08OyKM4SKKZkCbjyDWxxqog47doyEA","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNjk4NzUsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.ZgiR-hvuwWcfFOvZ1F5OWjL7fN_Yc1c8J4201HRpE7A0UYPkCh6d9_Zp_uIwBEt5cxVTS9p3rh1YCSuhlGt8kA","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/9/2/11/00453826.png","role_id":0,"founder":1}
+2025-03-04 14:11:10,904 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:11:10,904 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:11:10,904 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:11:10,904 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkyNzQsInVzZXJuYW1lIjoic2hhbW8ifQ.CFWgZqoUhVtvrapffvaXQRF7rc012EIaqE_iWgwQUBHivBJBHjQi6P7GdUyfmG3J-e1_IlP7Y58UaHjECcyZwg'}
+2025-03-04 14:11:10,905 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:11:10,905 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:11:10,905 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:11:10,905 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:11:10,936 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:11:10,936 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:11:11,028 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:11:11,029 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:11:11,029 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:11:11,029 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkyNzQsInVzZXJuYW1lIjoic2hhbW8ifQ.CFWgZqoUhVtvrapffvaXQRF7rc012EIaqE_iWgwQUBHivBJBHjQi6P7GdUyfmG3J-e1_IlP7Y58UaHjECcyZwg'}
+2025-03-04 14:11:11,029 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:11:11,029 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:11:11,029 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:11:11,030 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:11:11,073 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:11:11,074 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:11:11,099 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:11:11,099 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:11:11,100 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:11:11,100 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkyNzQsInVzZXJuYW1lIjoic2hhbW8ifQ.CFWgZqoUhVtvrapffvaXQRF7rc012EIaqE_iWgwQUBHivBJBHjQi6P7GdUyfmG3J-e1_IlP7Y58UaHjECcyZwg'}
+2025-03-04 14:11:11,100 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:11:11,100 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:11:11,100 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:11:11,100 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:11:11,147 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:11:11,148 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:11:11,174 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:11:11,174 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:11:11,174 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:11:11,174 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkyNzQsInVzZXJuYW1lIjoic2hhbW8ifQ.CFWgZqoUhVtvrapffvaXQRF7rc012EIaqE_iWgwQUBHivBJBHjQi6P7GdUyfmG3J-e1_IlP7Y58UaHjECcyZwg'}
+2025-03-04 14:11:11,175 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:11:11,175 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:11:11,175 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:11:11,175 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:11:11,214 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:11:11,214 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:11:11,241 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:11:11,241 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:11:11,241 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:11:11,241 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkyNzQsInVzZXJuYW1lIjoic2hhbW8ifQ.CFWgZqoUhVtvrapffvaXQRF7rc012EIaqE_iWgwQUBHivBJBHjQi6P7GdUyfmG3J-e1_IlP7Y58UaHjECcyZwg'}
+2025-03-04 14:11:11,241 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:11:11,242 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:11:11,242 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:11:11,242 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:11:11,282 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:11:11,283 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:11:11,308 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:11:11,308 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:11:11,308 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:11:11,309 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkyNzQsInVzZXJuYW1lIjoic2hhbW8ifQ.CFWgZqoUhVtvrapffvaXQRF7rc012EIaqE_iWgwQUBHivBJBHjQi6P7GdUyfmG3J-e1_IlP7Y58UaHjECcyZwg'}
+2025-03-04 14:11:11,309 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': 'sfdfsd2323', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:11:11,309 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:11:11,309 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:11:11,309 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:11:11,358 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：500
+2025-03-04 14:11:11,358 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"100","message":"会员地址已达20个上限，无法添加"}
+2025-03-04 14:11:59,731 [INFO] [apiautotest] [conftest.py:51] - 日志初始化成功
+2025-03-04 14:11:59,731 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:11:59,732 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/passport/login
+2025-03-04 14:11:59,732 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:11:59,732 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 14:11:59,732 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'username': 'shamo', 'password': 'd8c26d069c9950eec5cc79ab7b839821', 'captcha': '1512', 'uuid': 'fsfafdsf'}
+2025-03-04 14:11:59,733 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:11:59,733 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:11:59,733 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:11:59,920 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 14:11:59,921 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":59,"username":"shamo","nickname":"沙陌","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkzMjQsInVzZXJuYW1lIjoic2hhbW8ifQ.6ja7lvzFBL339qpL_WmK2a4xuEVa_QeubkZfUIbFEYNND3eakxH6S5u927UT4mYrj_nqNvR7XR6zdo3Om8WFpQ","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjk5MjQsInVzZXJuYW1lIjoic2hhbW8ifQ.t4uwWDQXgwsTpHeaSca4Zw0lBLh7wuVTe63hgTeybJdmMBWCmNht17JXRCEOElqPcIS6vxE2Juf39kwcTEIjfA","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/12/15/10/37495983.png"}
+2025-03-04 14:11:59,922 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:11:59,922 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7004/admin/systems/admin-users/login
+2025-03-04 14:11:59,922 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 14:11:59,922 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：None
+2025-03-04 14:11:59,922 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 14:11:59,923 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:11:59,926 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'admin', 'password': '78b157cf49d312ecf69d1335e8b589ef', 'captcha': '1512', 'uuid': 'fghfgfhfghfgh'}
+2025-03-04 14:11:59,926 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:12:00,001 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 14:12:00,001 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":1,"username":"admin","department":"admin","face":"http://javashop-statics.oss-cn-beijing.aliyuncs.com/v70/null/6127372723AF44AA827917048A0C4632.GIF","role_id":22,"founder":0,"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA2OTMyNCwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.2rsczDA-bOPkhidTwaqVfYXzeZ_OIenIL-Afgiq64k6eamJgS9yqXh33R1qQXdc2c_Gl7OkJ97YrYRM-7fPVYg","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA2OTkyNCwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.p1Qd6rykLZrlheXu_HmQUGbLe_BcYRK3dppqaCydu535zBIcvYOWVkLqdDaSn9_GYm1-6kZJ1jUBNQbYj2Z8qw"}
+2025-03-04 14:12:00,002 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:12:00,002 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/login
+2025-03-04 14:12:00,002 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 14:12:00,002 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 14:12:00,002 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 14:12:00,003 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:12:00,003 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'shamoseller', 'password': 'fafd8b5f5d11048e8078b66ab075acb3', 'captcha': '1512', 'uuid': 'fghjklkjhgfghjk'}
+2025-03-04 14:12:00,003 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:12:00,195 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 14:12:00,195 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":67,"username":"shamoseller","nickname":"shamoseller","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNjkzMjQsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.zwZ5TeSXx7I3BSlc-EsHq_uEG1k2YmZ7Ul-6uVqbydc6g9hzlcm8bGHFGMUxto_iYn1FdL4WrXDpBiY3fkQ3Bg","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNjk5MjQsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.wXKg2bM3UMJdfKqUHzC2yZm-B5T_-F3YiV2nFAO5YaRnLsl4Or2hv41Gor-UzWxGizgsSM01_wGhh9RYlR9Zow","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/9/2/11/00453826.png","role_id":0,"founder":1}
+2025-03-04 14:12:00,210 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:12:00,211 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:12:00,211 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:12:00,211 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkzMjQsInVzZXJuYW1lIjoic2hhbW8ifQ.6ja7lvzFBL339qpL_WmK2a4xuEVa_QeubkZfUIbFEYNND3eakxH6S5u927UT4mYrj_nqNvR7XR6zdo3Om8WFpQ'}
+2025-03-04 14:12:00,211 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:12:00,211 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:12:00,212 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:12:00,212 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:12:00,245 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:12:00,245 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:12:00,337 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:12:00,337 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:12:00,338 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:12:00,338 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkzMjQsInVzZXJuYW1lIjoic2hhbW8ifQ.6ja7lvzFBL339qpL_WmK2a4xuEVa_QeubkZfUIbFEYNND3eakxH6S5u927UT4mYrj_nqNvR7XR6zdo3Om8WFpQ'}
+2025-03-04 14:12:00,338 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:12:00,338 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:12:00,338 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:12:00,339 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:12:00,382 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:12:00,382 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:12:00,408 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:12:00,408 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:12:00,409 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:12:00,409 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkzMjQsInVzZXJuYW1lIjoic2hhbW8ifQ.6ja7lvzFBL339qpL_WmK2a4xuEVa_QeubkZfUIbFEYNND3eakxH6S5u927UT4mYrj_nqNvR7XR6zdo3Om8WFpQ'}
+2025-03-04 14:12:00,409 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:12:00,409 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:12:00,409 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:12:00,410 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:12:00,453 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:12:00,453 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:12:00,481 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:12:00,481 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:12:00,481 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:12:00,482 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkzMjQsInVzZXJuYW1lIjoic2hhbW8ifQ.6ja7lvzFBL339qpL_WmK2a4xuEVa_QeubkZfUIbFEYNND3eakxH6S5u927UT4mYrj_nqNvR7XR6zdo3Om8WFpQ'}
+2025-03-04 14:12:00,482 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:12:00,482 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:12:00,483 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:12:00,483 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:12:00,525 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:12:00,526 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:12:00,823 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:12:00,823 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:12:00,824 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:12:00,824 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkzMjQsInVzZXJuYW1lIjoic2hhbW8ifQ.6ja7lvzFBL339qpL_WmK2a4xuEVa_QeubkZfUIbFEYNND3eakxH6S5u927UT4mYrj_nqNvR7XR6zdo3Om8WFpQ'}
+2025-03-04 14:12:00,824 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:12:00,824 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:12:00,824 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:12:00,824 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:12:00,861 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:12:00,862 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:12:00,887 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:12:00,888 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:12:00,888 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:12:00,888 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkzMjQsInVzZXJuYW1lIjoic2hhbW8ifQ.6ja7lvzFBL339qpL_WmK2a4xuEVa_QeubkZfUIbFEYNND3eakxH6S5u927UT4mYrj_nqNvR7XR6zdo3Om8WFpQ'}
+2025-03-04 14:12:00,888 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': 'sfdfsd2323', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:12:00,889 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:12:00,889 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:12:00,889 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:12:00,935 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：500
+2025-03-04 14:12:00,936 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"100","message":"会员地址已达20个上限，无法添加"}
+2025-03-04 14:12:51,177 [INFO] [apiautotest] [conftest.py:51] - 日志初始化成功
+2025-03-04 14:12:51,177 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:12:51,178 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/passport/login
+2025-03-04 14:12:51,178 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:12:51,178 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 14:12:51,178 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'username': 'shamo', 'password': 'd8c26d069c9950eec5cc79ab7b839821', 'captcha': '1512', 'uuid': 'fsfafdsf'}
+2025-03-04 14:12:51,178 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:12:51,179 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:12:51,179 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:12:51,359 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 14:12:51,359 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":59,"username":"shamo","nickname":"沙陌","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkzNzUsInVzZXJuYW1lIjoic2hhbW8ifQ.zrpgPquDywFKUIZw5e-awH1HItufcAAa4qnXR-8YupCyuXFRU_e_-Nkh4bWp1AEPeXOm7UHApJNokrb5wlGMuw","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjk5NzUsInVzZXJuYW1lIjoic2hhbW8ifQ.XFYgZ3p0fNnkEIjnExhZUSZ21uSFxuTjfc8Zt0JgfoelfZ-00hs8xaT8eCnjSkHwq4X9XJp4vJ2n1U6s7VEdQA","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/12/15/10/37495983.png"}
+2025-03-04 14:12:51,360 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:12:51,360 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7004/admin/systems/admin-users/login
+2025-03-04 14:12:51,360 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 14:12:51,360 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：None
+2025-03-04 14:12:51,361 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 14:12:51,361 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:12:51,363 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'admin', 'password': '78b157cf49d312ecf69d1335e8b589ef', 'captcha': '1512', 'uuid': 'fghfgfhfghfgh'}
+2025-03-04 14:12:51,363 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:12:51,425 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 14:12:51,425 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":1,"username":"admin","department":"admin","face":"http://javashop-statics.oss-cn-beijing.aliyuncs.com/v70/null/6127372723AF44AA827917048A0C4632.GIF","role_id":22,"founder":0,"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA2OTM3NSwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.5CxmFcCOiUH6bx4hqTB2t81LPWBgwmhpBLUg6Q8VmlKoh2mRer9vlGM59q3-i8Y6q09CcPhg8gjlyK84w1qNLg","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA2OTk3NSwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.nVWZ03Fmswc69aYohuV9gcDJ2TO1S8PDiil9kihYfLaHHpixTrQOXmFvUetSk61BP74nfQLLjLiiS8r6ORuk-A"}
+2025-03-04 14:12:51,426 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:12:51,426 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/login
+2025-03-04 14:12:51,426 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 14:12:51,427 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 14:12:51,427 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 14:12:51,427 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:12:51,427 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'shamoseller', 'password': 'fafd8b5f5d11048e8078b66ab075acb3', 'captcha': '1512', 'uuid': 'fghjklkjhgfghjk'}
+2025-03-04 14:12:51,427 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:12:51,850 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 14:12:51,851 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":67,"username":"shamoseller","nickname":"shamoseller","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNjkzNzYsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.g-I99dC8FdJgdZAgJ3aSKNouqXpf4OXrd5wDh8RkKY_WHFI4qEj2aUvCwqP_oSdiXG72GLL3Z6y_b5udkRkO1Q","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNjk5NzYsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.I7dAYAEHQugVOwUmh_LAybuZ6ge7-Hi5uFAgWFckA8Al1AJ8Q392xxvJdCDUsNZ1P34Yh_ZSeB7XM_zsIIZFFA","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/9/2/11/00453826.png","role_id":0,"founder":1}
+2025-03-04 14:12:51,864 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:12:51,864 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:12:51,864 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:12:51,864 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkzNzUsInVzZXJuYW1lIjoic2hhbW8ifQ.zrpgPquDywFKUIZw5e-awH1HItufcAAa4qnXR-8YupCyuXFRU_e_-Nkh4bWp1AEPeXOm7UHApJNokrb5wlGMuw'}
+2025-03-04 14:12:51,864 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:12:51,865 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:12:51,865 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:12:51,865 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:12:51,893 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:12:51,894 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:12:51,985 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:12:51,986 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:12:51,986 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:12:51,986 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkzNzUsInVzZXJuYW1lIjoic2hhbW8ifQ.zrpgPquDywFKUIZw5e-awH1HItufcAAa4qnXR-8YupCyuXFRU_e_-Nkh4bWp1AEPeXOm7UHApJNokrb5wlGMuw'}
+2025-03-04 14:12:51,986 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:12:51,986 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:12:51,987 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:12:51,987 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:12:52,027 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:12:52,027 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:12:52,053 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:12:52,053 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:12:52,053 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:12:52,053 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkzNzUsInVzZXJuYW1lIjoic2hhbW8ifQ.zrpgPquDywFKUIZw5e-awH1HItufcAAa4qnXR-8YupCyuXFRU_e_-Nkh4bWp1AEPeXOm7UHApJNokrb5wlGMuw'}
+2025-03-04 14:12:52,053 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:12:52,054 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:12:52,054 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:12:52,054 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:12:52,093 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:12:52,093 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:12:52,120 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:12:52,120 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:12:52,120 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:12:52,121 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkzNzUsInVzZXJuYW1lIjoic2hhbW8ifQ.zrpgPquDywFKUIZw5e-awH1HItufcAAa4qnXR-8YupCyuXFRU_e_-Nkh4bWp1AEPeXOm7UHApJNokrb5wlGMuw'}
+2025-03-04 14:12:52,121 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:12:52,121 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:12:52,121 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:12:52,121 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:12:52,158 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:12:52,159 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:12:52,186 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:12:52,186 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:12:52,186 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:12:52,186 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkzNzUsInVzZXJuYW1lIjoic2hhbW8ifQ.zrpgPquDywFKUIZw5e-awH1HItufcAAa4qnXR-8YupCyuXFRU_e_-Nkh4bWp1AEPeXOm7UHApJNokrb5wlGMuw'}
+2025-03-04 14:12:52,187 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:12:52,187 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:12:52,187 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:12:52,187 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:12:52,224 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 14:12:52,225 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 14:12:52,250 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 14:12:52,250 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 14:12:52,250 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 14:12:52,251 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNjkzNzUsInVzZXJuYW1lIjoic2hhbW8ifQ.zrpgPquDywFKUIZw5e-awH1HItufcAAa4qnXR-8YupCyuXFRU_e_-Nkh4bWp1AEPeXOm7UHApJNokrb5wlGMuw'}
+2025-03-04 14:12:52,251 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': 'sfdfsd2323', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 14:12:52,251 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 14:12:52,251 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 14:12:52,251 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 14:12:53,303 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：500
+2025-03-04 14:12:53,303 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"100","message":"会员地址已达20个上限，无法添加"}
+2025-03-04 15:08:39,328 [INFO] [apiautotest] [conftest.py:51] - 日志初始化成功
+2025-03-04 15:08:39,329 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:08:39,329 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/passport/login
+2025-03-04 15:08:39,329 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:08:39,330 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 15:08:39,330 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'username': 'shamo', 'password': 'd8c26d069c9950eec5cc79ab7b839821', 'captcha': '1512', 'uuid': 'fsfafdsf'}
+2025-03-04 15:08:39,330 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:08:39,330 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:08:39,330 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:08:39,545 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 15:08:39,545 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":59,"username":"shamo","nickname":"沙陌","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzI3MjMsInVzZXJuYW1lIjoic2hhbW8ifQ.1nfUMnR-wlMPywhLlFKCN43nVx8BXTiXHYqjnzWhlBaAPGqU00w7ndPKAg_uV1wGn-GGS6i6C3oBbTHpaKwRPA","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzMzMjMsInVzZXJuYW1lIjoic2hhbW8ifQ.Y5fY5bOnbmzLqELDx6qP-Gn7brvAuRRcQuzfA6_cGi_EKOjcqX6Tmiy2fwd4dnfCsZjj4AKTyPQqw6rn4eOjLw","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/12/15/10/37495983.png"}
+2025-03-04 15:08:39,546 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:08:39,546 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7004/admin/systems/admin-users/login
+2025-03-04 15:08:39,546 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 15:08:39,546 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：None
+2025-03-04 15:08:39,546 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 15:08:39,546 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:08:39,549 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'admin', 'password': '78b157cf49d312ecf69d1335e8b589ef', 'captcha': '1512', 'uuid': 'fghfgfhfghfgh'}
+2025-03-04 15:08:39,549 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:08:39,622 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 15:08:39,622 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":1,"username":"admin","department":"admin","face":"http://javashop-statics.oss-cn-beijing.aliyuncs.com/v70/null/6127372723AF44AA827917048A0C4632.GIF","role_id":22,"founder":0,"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA3MjcyMywidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.xi3-xMAYtf3QBpWjZFpYb9xakq4rwRx0WHR1WFtLT5x5PBDh0aDCa8lf9YP0WgoXyKlFioL801FoNSz-Iw8tEw","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA3MzMyMywidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.W8MaZQFAz6KjLAWitAe3MQGF4kHoRgUO6LnnnkU7at1NNn3t7Wo8tc7qQ7pMraJj9-mutZmmszXY2kBqYTm6UA"}
+2025-03-04 15:08:39,623 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:08:39,623 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/login
+2025-03-04 15:08:39,623 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 15:08:39,623 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 15:08:39,624 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 15:08:39,624 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:08:39,624 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'shamoseller', 'password': 'fafd8b5f5d11048e8078b66ab075acb3', 'captcha': '1512', 'uuid': 'fghjklkjhgfghjk'}
+2025-03-04 15:08:39,624 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:08:39,818 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 15:08:39,818 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":67,"username":"shamoseller","nickname":"shamoseller","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNzI3MjQsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.B15IRSD3AGnBEoIyuBwcpYlWSjRWunhcutY3v7PvmG5k1mwodM9l_Utf88Czl7TXtHyzsBTGYAgDwrrqaxdEcA","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNzMzMjQsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.P8zhQsI_OdlGjQCNAUy2nqDlV9DwjuRfz7y6ca4FguEkFoQZBE7eVpoU8dhNDfzfhsqli40NSWqQOtrT4Rsbcg","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/9/2/11/00453826.png","role_id":0,"founder":1}
+2025-03-04 15:08:39,833 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:08:39,833 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 15:08:39,833 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:08:39,833 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzI3MjMsInVzZXJuYW1lIjoic2hhbW8ifQ.1nfUMnR-wlMPywhLlFKCN43nVx8BXTiXHYqjnzWhlBaAPGqU00w7ndPKAg_uV1wGn-GGS6i6C3oBbTHpaKwRPA'}
+2025-03-04 15:08:39,834 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 15:08:39,834 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:08:39,834 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:08:39,834 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:08:39,866 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 15:08:39,867 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 15:08:39,958 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:08:39,959 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 15:08:39,959 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:08:39,959 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzI3MjMsInVzZXJuYW1lIjoic2hhbW8ifQ.1nfUMnR-wlMPywhLlFKCN43nVx8BXTiXHYqjnzWhlBaAPGqU00w7ndPKAg_uV1wGn-GGS6i6C3oBbTHpaKwRPA'}
+2025-03-04 15:08:39,959 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 15:08:39,960 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:08:39,960 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:08:39,960 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:08:40,001 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 15:08:40,002 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 15:08:40,025 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:08:40,025 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 15:08:40,026 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:08:40,026 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzI3MjMsInVzZXJuYW1lIjoic2hhbW8ifQ.1nfUMnR-wlMPywhLlFKCN43nVx8BXTiXHYqjnzWhlBaAPGqU00w7ndPKAg_uV1wGn-GGS6i6C3oBbTHpaKwRPA'}
+2025-03-04 15:08:40,026 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 15:08:40,026 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:08:40,026 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:08:40,026 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:08:40,063 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 15:08:40,063 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 15:08:40,089 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:08:40,089 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 15:08:40,090 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:08:40,090 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzI3MjMsInVzZXJuYW1lIjoic2hhbW8ifQ.1nfUMnR-wlMPywhLlFKCN43nVx8BXTiXHYqjnzWhlBaAPGqU00w7ndPKAg_uV1wGn-GGS6i6C3oBbTHpaKwRPA'}
+2025-03-04 15:08:40,090 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 15:08:40,090 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:08:40,090 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:08:40,091 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:08:41,145 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 15:08:41,146 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 15:08:41,168 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:08:41,169 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 15:08:41,169 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:08:41,169 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzI3MjMsInVzZXJuYW1lIjoic2hhbW8ifQ.1nfUMnR-wlMPywhLlFKCN43nVx8BXTiXHYqjnzWhlBaAPGqU00w7ndPKAg_uV1wGn-GGS6i6C3oBbTHpaKwRPA'}
+2025-03-04 15:08:41,169 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 15:08:41,169 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:08:41,170 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:08:41,170 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:08:42,211 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 15:08:42,211 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 15:08:42,234 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:08:42,235 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 15:08:42,235 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:08:42,235 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzI3MjMsInVzZXJuYW1lIjoic2hhbW8ifQ.1nfUMnR-wlMPywhLlFKCN43nVx8BXTiXHYqjnzWhlBaAPGqU00w7ndPKAg_uV1wGn-GGS6i6C3oBbTHpaKwRPA'}
+2025-03-04 15:08:42,235 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': 'sfdfsd2323', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 15:08:42,235 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:08:42,235 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:08:42,236 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:08:42,283 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：500
+2025-03-04 15:08:42,283 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"100","message":"会员地址已达20个上限，无法添加"}
+2025-03-04 15:10:26,186 [INFO] [apiautotest] [conftest.py:51] - 日志初始化成功
+2025-03-04 15:10:26,186 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:10:26,186 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/passport/login
+2025-03-04 15:10:26,187 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:10:26,187 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 15:10:26,187 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'username': 'shamo', 'password': 'd8c26d069c9950eec5cc79ab7b839821', 'captcha': '1512', 'uuid': 'fsfafdsf'}
+2025-03-04 15:10:26,187 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:10:26,187 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:10:26,187 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:10:26,378 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 15:10:26,379 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":59,"username":"shamo","nickname":"沙陌","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzI4MzAsInVzZXJuYW1lIjoic2hhbW8ifQ.60HVUfdzo08-Mhml1AO04SHHA216NlRaBUmfK5fSc9fdk3dtM5kWzHT9cNAa3jbQufOYeJo83-I4YhiGdRb_KQ","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzM0MzAsInVzZXJuYW1lIjoic2hhbW8ifQ.JozccZYnMC4f_5yU-FmkF2Hw-PxhrBX0dxg8K4ORXF0iXQFfveTcV9HXUVzlI-g7YYBVC_Vu0eX05lKbiVzFZA","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/12/15/10/37495983.png"}
+2025-03-04 15:10:26,379 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:10:26,379 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7004/admin/systems/admin-users/login
+2025-03-04 15:10:26,380 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 15:10:26,380 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：None
+2025-03-04 15:10:26,380 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 15:10:26,380 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:10:26,380 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'admin', 'password': '78b157cf49d312ecf69d1335e8b589ef', 'captcha': '1512', 'uuid': 'fghfgfhfghfgh'}
+2025-03-04 15:10:26,380 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:10:26,446 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 15:10:26,446 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":1,"username":"admin","department":"admin","face":"http://javashop-statics.oss-cn-beijing.aliyuncs.com/v70/null/6127372723AF44AA827917048A0C4632.GIF","role_id":22,"founder":0,"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA3MjgzMCwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.9xg0Yy9TB5sVNCkrTF0UWAd41P54h_2S2uvTv7Mhv4Er5u_aoaAX-Z-273LbUW6cvqR86PuVv0pSXwJh0uUAzA","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA3MzQzMCwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.HOFbNqVRMCUsWlDuGoRTn5rcxbV2jZdOWJk3ebljgLDGW9dc9C1Ut32-I9fEueBkGYKvqTTb2psmZF60sMZb8g"}
+2025-03-04 15:10:26,446 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:10:26,447 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/login
+2025-03-04 15:10:26,447 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 15:10:26,447 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 15:10:26,447 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 15:10:26,447 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:10:26,447 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'shamoseller', 'password': 'fafd8b5f5d11048e8078b66ab075acb3', 'captcha': '1512', 'uuid': 'fghjklkjhgfghjk'}
+2025-03-04 15:10:26,448 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:10:26,622 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 15:10:26,623 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":67,"username":"shamoseller","nickname":"shamoseller","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNzI4MzAsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.srMW_m1KrKknKbrQ4tG7unXDjkD4jA58KkcNcnDi-3msc2P5SjJYEd5kygjlluTZsH8iaMJsfRhKlh30QQq7TQ","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNzM0MzAsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.UXOiXDyLHQoGVOIGZW8BppzoObKWjY6hLNI0FBIsdM5vhrKK32CZSJKczgyua1kaUnmygQcIbdV11Xhl1OBp5A","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/9/2/11/00453826.png","role_id":0,"founder":1}
+2025-03-04 15:10:26,636 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:10:26,636 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 15:10:26,636 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:10:26,637 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzI4MzAsInVzZXJuYW1lIjoic2hhbW8ifQ.60HVUfdzo08-Mhml1AO04SHHA216NlRaBUmfK5fSc9fdk3dtM5kWzHT9cNAa3jbQufOYeJo83-I4YhiGdRb_KQ'}
+2025-03-04 15:10:26,637 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 15:10:26,637 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:10:26,637 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:10:26,637 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:10:26,666 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 15:10:26,667 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 15:10:26,667 [INFO] [apiautotest] [json_util.py:54] - 通过$.code匹配到的结果是:['004']
+2025-03-04 15:10:26,768 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:10:26,768 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 15:10:26,768 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:10:26,768 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzI4MzAsInVzZXJuYW1lIjoic2hhbW8ifQ.60HVUfdzo08-Mhml1AO04SHHA216NlRaBUmfK5fSc9fdk3dtM5kWzHT9cNAa3jbQufOYeJo83-I4YhiGdRb_KQ'}
+2025-03-04 15:10:26,769 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 15:10:26,769 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:10:26,769 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:10:26,769 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:10:26,809 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 15:10:26,809 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 15:10:26,810 [INFO] [apiautotest] [json_util.py:54] - 通过$.code匹配到的结果是:['004']
+2025-03-04 15:10:26,835 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:10:26,836 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 15:10:26,836 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:10:26,836 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzI4MzAsInVzZXJuYW1lIjoic2hhbW8ifQ.60HVUfdzo08-Mhml1AO04SHHA216NlRaBUmfK5fSc9fdk3dtM5kWzHT9cNAa3jbQufOYeJo83-I4YhiGdRb_KQ'}
+2025-03-04 15:10:26,836 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 15:10:26,836 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:10:26,837 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:10:26,837 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:10:26,877 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 15:10:26,877 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 15:10:26,877 [INFO] [apiautotest] [json_util.py:54] - 通过$.code匹配到的结果是:['004']
+2025-03-04 15:10:26,903 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:10:26,903 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 15:10:26,903 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:10:26,904 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzI4MzAsInVzZXJuYW1lIjoic2hhbW8ifQ.60HVUfdzo08-Mhml1AO04SHHA216NlRaBUmfK5fSc9fdk3dtM5kWzHT9cNAa3jbQufOYeJo83-I4YhiGdRb_KQ'}
+2025-03-04 15:10:26,904 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 15:10:26,904 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:10:26,904 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:10:26,904 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:10:26,945 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 15:10:26,945 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 15:10:26,945 [INFO] [apiautotest] [json_util.py:54] - 通过$.code匹配到的结果是:['004']
+2025-03-04 15:10:26,971 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:10:26,971 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 15:10:26,971 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:10:26,971 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzI4MzAsInVzZXJuYW1lIjoic2hhbW8ifQ.60HVUfdzo08-Mhml1AO04SHHA216NlRaBUmfK5fSc9fdk3dtM5kWzHT9cNAa3jbQufOYeJo83-I4YhiGdRb_KQ'}
+2025-03-04 15:10:26,971 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 15:10:26,972 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:10:26,972 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:10:26,972 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:10:27,013 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 15:10:27,014 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 15:10:27,014 [INFO] [apiautotest] [json_util.py:54] - 通过$.code匹配到的结果是:['004']
+2025-03-04 15:10:27,039 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:10:27,039 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 15:10:27,040 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:10:27,040 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzI4MzAsInVzZXJuYW1lIjoic2hhbW8ifQ.60HVUfdzo08-Mhml1AO04SHHA216NlRaBUmfK5fSc9fdk3dtM5kWzHT9cNAa3jbQufOYeJo83-I4YhiGdRb_KQ'}
+2025-03-04 15:10:27,040 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': 'sfdfsd2323', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 15:10:27,040 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:10:27,040 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:10:27,041 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:10:27,082 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：500
+2025-03-04 15:10:27,083 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"100","message":"会员地址已达20个上限，无法添加"}
+2025-03-04 15:10:27,083 [INFO] [apiautotest] [json_util.py:54] - 通过$.code匹配到的结果是:['100']
+2025-03-04 15:24:27,899 [INFO] [apiautotest] [conftest.py:51] - 日志初始化成功
+2025-03-04 15:24:27,899 [INFO] [apiautotest] [conftest.py:51] - 日志初始化成功
+2025-03-04 15:24:27,899 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:24:27,900 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/passport/login
+2025-03-04 15:24:27,900 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:24:27,900 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 15:24:27,900 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:24:27,900 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'username': 'shamo', 'password': 'd8c26d069c9950eec5cc79ab7b839821', 'captcha': '1512', 'uuid': 'fsfafdsf'}
+2025-03-04 15:24:27,900 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/passport/login
+2025-03-04 15:24:27,900 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:24:27,900 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:24:27,900 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:24:27,900 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 15:24:27,901 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:24:27,901 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'username': 'shamo', 'password': 'd8c26d069c9950eec5cc79ab7b839821', 'captcha': '1512', 'uuid': 'fsfafdsf'}
+2025-03-04 15:24:27,901 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:24:27,901 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:24:27,901 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:24:28,105 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 15:24:28,105 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":59,"username":"shamo","nickname":"沙陌","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzM2NzIsInVzZXJuYW1lIjoic2hhbW8ifQ.F1kuGOCIBtAB9L5L2IwzK55fs59kU05i3feBXvPxZZcv0btAus6osjyNWkxWtBI5apflSWYlWprW4gmlvO4X9Q","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzQyNzIsInVzZXJuYW1lIjoic2hhbW8ifQ.uv9aExah5xWBY7K8VKCnIe9suraqwXq2_bsK6DqNypMuweIPT-I7P8pxjG999cNocNbioyrUD8TscpehTDtIDQ","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/12/15/10/37495983.png"}
+2025-03-04 15:24:28,106 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:24:28,106 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 15:24:28,106 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7004/admin/systems/admin-users/login
+2025-03-04 15:24:28,106 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":59,"username":"shamo","nickname":"沙陌","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzM2NzIsInVzZXJuYW1lIjoic2hhbW8ifQ.F1kuGOCIBtAB9L5L2IwzK55fs59kU05i3feBXvPxZZcv0btAus6osjyNWkxWtBI5apflSWYlWprW4gmlvO4X9Q","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzQyNzIsInVzZXJuYW1lIjoic2hhbW8ifQ.uv9aExah5xWBY7K8VKCnIe9suraqwXq2_bsK6DqNypMuweIPT-I7P8pxjG999cNocNbioyrUD8TscpehTDtIDQ","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/12/15/10/37495983.png"}
+2025-03-04 15:24:28,106 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 15:24:28,107 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：None
+2025-03-04 15:24:28,107 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 15:24:28,107 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:24:28,107 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:24:28,107 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7004/admin/systems/admin-users/login
+2025-03-04 15:24:28,107 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'admin', 'password': '78b157cf49d312ecf69d1335e8b589ef', 'captcha': '1512', 'uuid': 'fghfgfhfghfgh'}
+2025-03-04 15:24:28,107 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 15:24:28,107 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:24:28,107 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：None
+2025-03-04 15:24:28,108 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 15:24:28,108 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:24:28,108 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'admin', 'password': '78b157cf49d312ecf69d1335e8b589ef', 'captcha': '1512', 'uuid': 'fghfgfhfghfgh'}
+2025-03-04 15:24:28,108 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:24:28,188 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 15:24:28,189 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":1,"username":"admin","department":"admin","face":"http://javashop-statics.oss-cn-beijing.aliyuncs.com/v70/null/6127372723AF44AA827917048A0C4632.GIF","role_id":22,"founder":0,"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA3MzY3MiwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.6XFFJmPYhQi5MIiR9W9CUemSBlti41c4jSWtxlAfLAO_j77LMorhYXPbzuXT-4ZcGyueLUgNboeB5rnP35SRKA","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA3NDI3MiwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.VWUn48JJNqIHGaMreXW0l_idoZiFeiyyLnw8aw7DZvxnWgf-ShkqSbmR4roQtlFCi2mpgIXRE9F6y1dlk_yIAA"}
+2025-03-04 15:24:28,189 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:24:28,189 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/login
+2025-03-04 15:24:28,189 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 15:24:28,190 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 15:24:28,190 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 15:24:28,190 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 15:24:28,190 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:24:28,190 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'shamoseller', 'password': 'fafd8b5f5d11048e8078b66ab075acb3', 'captcha': '1512', 'uuid': 'fghjklkjhgfghjk'}
+23AF44AA827917048A0C4632.GIF","role_id":22,"founder":0,"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA3MzY3MiwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.6XFFJmPYhQi5MIiR9W9CUemSBlti41c4jSWtxlAfLAO_j77LMorhYXPbzuXT-4ZcGyueLUgNboeB5rnP35SRKA","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA3NDI3MiwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.VWUn48JJNqIHGaMreXW0l_idoZiFeiyyLnw8aw7DZvxnWgf-ShkqSbmR4roQtlFCi2mpgIXRE9F6y1dlk_yIAA"}
+2025-03-04 15:24:28,190 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:24:28,191 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:24:28,191 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/login
+2025-03-04 15:24:28,191 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 15:24:28,191 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 15:24:28,191 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 15:24:28,191 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:24:28,192 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'shamoseller', 'password': 'fafd8b5f5d11048e8078b66ab075acb3', 'captcha': '1512', 'uuid': 'fghjklkjhgfghjk'}
+2025-03-04 15:24:28,192 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:24:28,387 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 15:24:28,387 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":67,"username":"shamoseller","nickname":"shamoseller","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNzM2NzIsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.yZsO5s_UGjEtzz7bp9TQlR7osidzVd_70RjMQuoF3lLP6kRuzHb7esodM5Y8IoG1ttEWfFCXMQU0oc4BrCntNQ","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNzQyNzIsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.lCnJmoJPcWaV_UFOVg-K0Ed7tTXV5Um5scMs43BH_7YKcUw6k_5Ju6583hY1fDZUNyjCQzkTyHoZfforP5xh2g","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/9/2/11/00453826.png","role_id":0,"founder":1}
+2025-03-04 15:24:28,392 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 15:24:28,392 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":67,"username":"shamoseller","nickname":"shamoseller","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNzM2NzIsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.yZsO5s_UGjEtzz7bp9TQlR7osidzVd_70RjMQuoF3lLP6kRuzHb7esodM5Y8IoG1ttEWfFCXMQU0oc4BrCntNQ","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNzQyNzIsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.lCnJmoJPcWaV_UFOVg-K0Ed7tTXV5Um5scMs43BH_7YKcUw6k_5Ju6583hY1fDZUNyjCQzkTyHoZfforP5xh2g","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/9/2/11/00453826.png","role_id":0,"founder":1}
+2025-03-04 15:24:28,405 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:24:28,406 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 15:24:28,406 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:24:28,406 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzM2NzIsInVzZXJuYW1lIjoic2hhbW8ifQ.F1kuGOCIBtAB9L5L2IwzK55fs59kU05i3feBXvPxZZcv0btAus6osjyNWkxWtBI5apflSWYlWprW4gmlvO4X9Q'}
+2025-03-04 15:24:28,406 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 15:24:28,407 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:24:28,407 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:24:28,407 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:24:28,412 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:24:28,412 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 15:24:28,412 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:24:28,413 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzM2NzIsInVzZXJuYW1lIjoic2hhbW8ifQ.F1kuGOCIBtAB9L5L2IwzK55fs59kU05i3feBXvPxZZcv0btAus6osjyNWkxWtBI5apflSWYlWprW4gmlvO4X9Q'}
+2025-03-04 15:24:28,413 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 15:24:28,413 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:24:28,413 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:24:28,413 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:24:28,437 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 15:24:28,438 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 15:24:28,438 [INFO] [apiautotest] [json_util.py:54] - 通过$.code匹配到的结果是:['004']
+2025-03-04 15:24:28,440 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 15:24:28,441 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 15:24:28,441 [INFO] [apiautotest] [json_util.py:54] - 通过$.code匹配到的结果是:['004']
+2025-03-04 15:24:28,546 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:24:28,546 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 15:24:28,547 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:24:28,547 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzM2NzIsInVzZXJuYW1lIjoic2hhbW8ifQ.F1kuGOCIBtAB9L5L2IwzK55fs59kU05i3feBXvPxZZcv0btAus6osjyNWkxWtBI5apflSWYlWprW4gmlvO4X9Q'}
+2025-03-04 15:24:28,547 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 15:24:28,547 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:24:28,547 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:24:28,548 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:24:28,552 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:24:28,552 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 15:24:28,553 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:24:28,553 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzM2NzIsInVzZXJuYW1lIjoic2hhbW8ifQ.F1kuGOCIBtAB9L5L2IwzK55fs59kU05i3feBXvPxZZcv0btAus6osjyNWkxWtBI5apflSWYlWprW4gmlvO4X9Q'}
+2025-03-04 15:24:28,553 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 15:24:28,553 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:24:28,553 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:24:28,554 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:24:28,587 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 15:24:28,587 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 15:24:28,587 [INFO] [apiautotest] [json_util.py:54] - 通过$.code匹配到的结果是:['004']
+2025-03-04 15:24:28,589 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 15:24:28,589 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 15:24:28,589 [INFO] [apiautotest] [json_util.py:54] - 通过$.code匹配到的结果是:['004']
+2025-03-04 15:24:28,620 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:24:28,621 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 15:24:28,621 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:24:28,621 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzM2NzIsInVzZXJuYW1lIjoic2hhbW8ifQ.F1kuGOCIBtAB9L5L2IwzK55fs59kU05i3feBXvPxZZcv0btAus6osjyNWkxWtBI5apflSWYlWprW4gmlvO4X9Q'}
+2025-03-04 15:24:28,621 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 15:24:28,621 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:24:28,622 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:24:28,622 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:24:28,622 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:24:28,623 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 15:24:28,623 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:24:28,623 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzM2NzIsInVzZXJuYW1lIjoic2hhbW8ifQ.F1kuGOCIBtAB9L5L2IwzK55fs59kU05i3feBXvPxZZcv0btAus6osjyNWkxWtBI5apflSWYlWprW4gmlvO4X9Q'}
+2025-03-04 15:24:28,623 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': 'sfdfsd2323', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 15:24:28,623 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:24:28,624 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:24:28,624 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:24:28,662 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 15:24:28,662 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 15:24:28,662 [INFO] [apiautotest] [json_util.py:54] - 通过$.code匹配到的结果是:['004']
+2025-03-04 15:24:28,666 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：500
+2025-03-04 15:24:28,666 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"100","message":"会员地址已达20个上限，无法添加"}
+2025-03-04 15:24:28,666 [INFO] [apiautotest] [json_util.py:54] - 通过$.code匹配到的结果是:['100']
+2025-03-04 15:33:55,255 [INFO] [apiautotest] [conftest.py:51] - 日志初始化成功
+2025-03-04 15:33:55,255 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:33:55,255 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:33:55,255 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/passport/login
+2025-03-04 15:33:55,256 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/passport/login
+2025-03-04 15:33:55,256 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:33:55,256 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:33:55,256 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 15:33:55,256 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 15:33:55,256 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'username': 'shamo', 'password': 'd8c26d069c9950eec5cc79ab7b839821', 'captcha': '1512', 'uuid': 'fsfafdsf'}
+2025-03-04 15:33:55,256 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'username': 'shamo', 'password': 'd8c26d069c9950eec5cc79ab7b839821', 'captcha': '1512', 'uuid': 'fsfafdsf'}
+2025-03-04 15:33:55,256 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:33:55,256 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:33:55,256 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:33:55,256 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:33:55,257 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:33:55,257 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:33:55,466 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 15:33:55,466 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":59,"username":"shamo","nickname":"沙陌","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzQyMzksInVzZXJuYW1lIjoic2hhbW8ifQ.0GvjjZNz-qOix1QGT1az2W-LagMXMZaBzpCpNz_oQQPLd5keB0FPOee0Vfk-7DAPKKr-6urebtA-4HgfH2kVfw","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzQ4MzksInVzZXJuYW1lIjoic2hhbW8ifQ.8LUdyDnric980z4c2RDA-XJMu0ZUYgp71ktGFw-Tzngud6WAMH5F-Wd4fVrzik_TYyXa8zy-ES4S68-LRnfudw","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/12/15/10/37495983.png"}
+2025-03-04 15:33:55,466 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 15:33:55,467 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":59,"username":"shamo","nickname":"沙陌","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzQyMzksInVzZXJuYW1lIjoic2hhbW8ifQ.0GvjjZNz-qOix1QGT1az2W-LagMXMZaBzpCpNz_oQQPLd5keB0FPOee0Vfk-7DAPKKr-6urebtA-4HgfH2kVfw","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzQ4MzksInVzZXJuYW1lIjoic2hhbW8ifQ.8LUdyDnric980z4c2RDA-XJMu0ZUYgp71ktGFw-Tzngud6WAMH5F-Wd4fVrzik_TYyXa8zy-ES4S68-LRnfudw","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/12/15/10/37495983.png"}
+2025-03-04 15:33:55,467 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:33:55,467 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7004/admin/systems/admin-users/login
+2025-03-04 15:33:55,467 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:33:55,467 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 15:33:55,467 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7004/admin/systems/admin-users/login
+2025-03-04 15:33:55,467 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：None
+2025-03-04 15:33:55,467 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 15:33:55,467 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 15:33:55,468 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：None
+2025-03-04 15:33:55,468 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:33:55,468 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'admin', 'password': '78b157cf49d312ecf69d1335e8b589ef', 'captcha': '1512', 'uuid': 'fghfgfhfghfgh'}
+2025-03-04 15:33:55,468 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 15:33:55,468 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+
+2025-03-04 15:33:55,468 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'admin', 'password': '78b157cf49d312ecf69d1335e8b589ef', 'captcha': '1512', 'uuid': 'fghfgfhfghfgh'}
+2025-03-04 15:33:55,468 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:33:55,537 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 15:33:55,537 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":1,"username":"admin","department":"admin","face":"http://javashop-statics.oss-cn-beijing.aliyuncs.com/v70/null/6127372723AF44AA827917048A0C4632.GIF","role_id":22,"founder":0,"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA3NDIzOSwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9._nd2KTfG30zdWbzQ3SCYkA7SK6XUyx3ubnUuLsL3nAXsy2tJP04ZYkQVAhUfOVlsvjmPNggQg3tGfwcfTlVscQ","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA3NDgzOSwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.WwkApzloD902RUZTDqmXdQxd0RuYOVU7azaw392ErPB5_yB-UrPtKBMwvtF617Gp1aY5F_Vt3TE2SX_0hK-T5w"}
+2025-03-04 15:33:55,538 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:33:55,538 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/login
+2025-03-04 15:33:55,538 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 15:33:55,538 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 15:33:55,538 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 15:33:55,538 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 15:33:55,539 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:33:55,539 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":1,"username":"admin","department":"admin","face":"http://javashop-statics.oss-cn-beijing.aliyuncs.com/v70/null/6127372723AF44AA827917048A0C4632.GIF","role_id":22,"founder":0,"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA3NDIzOSwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9._nd2KTfG30zdWbzQ3SCYkA7SK6XUyx3ubnUuLsL3nAXsy2tJP04ZYkQVAhUfOVlsvjmPNggQg3tGfwcfTlVscQ","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MTA3NDgzOSwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.WwkApzloD902RUZTDqmXdQxd0RuYOVU7azaw392ErPB5_yB-UrPtKBMwvtF617Gp1aY5F_Vt3TE2SX_0hK-T5w"}
+2025-03-04 15:33:55,539 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'shamoseller', 'password': 'fafd8b5f5d11048e8078b66ab075acb3', 'captcha': '1512', 'uuid': 'fghjklkjhgfghjk'}
+2025-03-04 15:33:55,539 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:33:55,539 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:33:55,539 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/login
+2025-03-04 15:33:55,540 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-04 15:33:55,540 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-04 15:33:55,540 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-04 15:33:55,540 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:33:55,540 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'shamoseller', 'password': 'fafd8b5f5d11048e8078b66ab075acb3', 'captcha': '1512', 'uuid': 'fghjklkjhgfghjk'}
+2025-03-04 15:33:55,540 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:33:55,745 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 15:33:55,745 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":67,"username":"shamoseller","nickname":"shamoseller","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNzQyNDAsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.ry9dB7OrVg7qh9uvaVtbPjGcdFaMnDPTYl06vDb_HvcYNY34OObXe2B2bNlARXlZ46ZINrUfCBvairh4Gya5jg","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNzQ4NDAsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.bQd6qCVLvoaGOR_N_cIRvMNkBdAZui0N4z5Ordwi1-aYC5q1VmDMGIu-spdm-Fz8lRqUDXW0pHsFh0sjGxMuLQ","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/9/2/11/00453826.png","role_id":0,"founder":1}
+2025-03-04 15:33:55,747 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-04 15:33:55,747 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":67,"username":"shamoseller","nickname":"shamoseller","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNzQyNDAsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.ry9dB7OrVg7qh9uvaVtbPjGcdFaMnDPTYl06vDb_HvcYNY34OObXe2B2bNlARXlZ46ZINrUfCBvairh4Gya5jg","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDEwNzQ4NDAsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.bQd6qCVLvoaGOR_N_cIRvMNkBdAZui0N4z5Ordwi1-aYC5q1VmDMGIu-spdm-Fz8lRqUDXW0pHsFh0sjGxMuLQ","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/9/2/11/00453826.png","role_id":0,"founder":1}
+2025-03-04 15:33:55,759 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:33:55,760 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 15:33:55,760 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:33:55,760 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzQyMzksInVzZXJuYW1lIjoic2hhbW8ifQ.0GvjjZNz-qOix1QGT1az2W-LagMXMZaBzpCpNz_oQQPLd5keB0FPOee0Vfk-7DAPKKr-6urebtA-4HgfH2kVfw'}
+2025-03-04 15:33:55,760 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 15:33:55,761 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:33:55,761 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:33:55,761 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:33:55,762 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:33:55,763 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 15:33:55,763 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:33:55,763 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzQyMzksInVzZXJuYW1lIjoic2hhbW8ifQ.0GvjjZNz-qOix1QGT1az2W-LagMXMZaBzpCpNz_oQQPLd5keB0FPOee0Vfk-7DAPKKr-6urebtA-4HgfH2kVfw'}
+2025-03-04 15:33:55,763 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 15:33:55,763 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:33:55,763 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:33:55,764 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:33:55,793 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 15:33:55,793 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 15:33:55,793 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 15:33:55,793 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 15:33:55,794 [INFO] [apiautotest] [json_util.py:54] - 通过$.code匹配到的结果是:['004']
+2025-03-04 15:33:55,794 [INFO] [apiautotest] [json_util.py:54] - 通过$.code匹配到的结果是:['004']
+2025-03-04 15:33:55,899 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:33:55,899 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:33:55,899 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 15:33:55,899 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 15:33:55,899 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:33:55,899 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:33:55,900 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzQyMzksInVzZXJuYW1lIjoic2hhbW8ifQ.0GvjjZNz-qOix1QGT1az2W-LagMXMZaBzpCpNz_oQQPLd5keB0FPOee0Vfk-7DAPKKr-6urebtA-4HgfH2kVfw'}
+2025-03-04 15:33:55,900 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': '', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 15:33:55,900 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:33:55,900 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:33:55,900 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:33:55,900 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:33:55,900 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:33:55,941 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 15:33:55,941 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 15:33:55,942 [INFO] [apiautotest] [json_util.py:54] - 通过$.code匹配到的结果是:['004']
+2025-03-04 15:33:55,973 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:33:55,973 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 15:33:55,974 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:33:55,974 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzQyMzksInVzZXJuYW1lIjoic2hhbW8ifQ.0GvjjZNz-qOix1QGT1az2W-LagMXMZaBzpCpNz_oQQPLd5keB0FPOee0Vfk-7DAPKKr-6urebtA-4HgfH2kVfw'}
+2025-03-04 15:33:55,974 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 15:33:55,974 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:33:55,974 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:33:55,975 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:33:56,013 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 15:33:56,013 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 15:33:56,013 [INFO] [apiautotest] [json_util.py:54] - 通过$.code匹配到的结果是:['004']
+2025-03-04 15:33:56,951 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-04 15:33:56,951 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"收货人姓名不能为空"}
+2025-03-04 15:33:56,951 [INFO] [apiautotest] [json_util.py:54] - 通过$.code匹配到的结果是:['004']
+2025-03-04 15:33:56,982 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-04 15:33:56,983 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/members/address
+2025-03-04 15:33:56,983 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-04 15:33:56,983 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDEwNzQyMzksInVzZXJuYW1lIjoic2hhbW8ifQ.0GvjjZNz-qOix1QGT1az2W-LagMXMZaBzpCpNz_oQQPLd5keB0FPOee0Vfk-7DAPKKr-6urebtA-4HgfH2kVfw'}
+2025-03-04 15:33:56,983 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'def_addr': 0, 'ship_address_name': '这是地址别名', 'name': 'sfdfsd2323', 'mobile': '18729399607', 'region': 2799, 'addr': '这是详细地址'}
+2025-03-04 15:33:56,983 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-04 15:33:56,984 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-04 15:33:56,984 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-04 15:33:57,026 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：500
+2025-03-04 15:33:57,026 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"100","message":"会员地址已达20个上限，无法添加"}
+2025-03-04 15:33:57,026 [INFO] [apiautotest] [json_util.py:54] - 通过$.code匹配到的结果是:['100']

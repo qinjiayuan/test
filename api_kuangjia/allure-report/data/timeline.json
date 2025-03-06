@@ -1,0 +1,43 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-V34DU0O",
+    "children" : [ {
+      "name" : "51056-MainThread",
+      "children" : [ {
+        "name" : "test_buy_now",
+        "uid" : "9ea6f4423192abe4",
+        "parentUid" : "7e0b33a6a27325134bd61eddb123dc23",
+        "status" : "failed",
+        "time" : {
+          "start" : 1740226743981,
+          "stop" : 1740226744233,
+          "duration" : 252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7e0b33a6a27325134bd61eddb123dc23"
+    }, {
+      "name" : "68740-MainThread",
+      "children" : [ {
+        "name" : "test_buy_now",
+        "uid" : "6f1c133cdc55e382",
+        "parentUid" : "b067dc0000e1578bd0222568a811cd91",
+        "status" : "failed",
+        "time" : {
+          "start" : 1740226440503,
+          "stop" : 1740226440747,
+          "duration" : 244
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b067dc0000e1578bd0222568a811cd91"
+    } ],
+    "uid" : "7c18e882fc02e5b69db7bd7c552a7f2a"
+  } ]
+}

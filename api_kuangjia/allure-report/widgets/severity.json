@@ -1,0 +1,11 @@
+[ {
+  "uid" : "9ea6f4423192abe4",
+  "name" : "test_buy_now",
+  "time" : {
+    "start" : 1740226743981,
+    "stop" : 1740226744233,
+    "duration" : 252
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

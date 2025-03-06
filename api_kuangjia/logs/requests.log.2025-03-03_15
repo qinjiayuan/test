@@ -1,0 +1,306 @@
+2025-03-03 15:22:39,211 [INFO] [apiautotest] [conftest.py:51] - 日志初始化成功
+2025-03-03 15:22:39,214 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:22:39,214 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/passport/login
+2025-03-03 15:22:39,214 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-03 15:22:39,215 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-03 15:22:39,215 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'username': 'shamo', 'password': 'd8c26d069c9950eec5cc79ab7b839821', 'captcha': '1512', 'uuid': 'fsfafdsf'}
+2025-03-03 15:22:39,215 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-03 15:22:39,215 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-03 15:22:39,216 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:22:39,547 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-03 15:22:39,548 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":59,"username":"shamo","nickname":"沙陌","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDA5ODcxNjYsInVzZXJuYW1lIjoic2hhbW8ifQ.EffOEq4f1wI87fwktCTIg22U91ajdCkJZWI_SLr5I-5hkyO9dlo-V2VQfZa0f2jMDPlenbYYJnrIG4K2zAkd7w","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDA5ODc3NjYsInVzZXJuYW1lIjoic2hhbW8ifQ.XYK6kLEI_UlG_jZuSwiggi4HQZSs7ps-c6cj9e1zASVH1ft4BwFnJhazNZfaJtkhYJ-zZggN8sTVtsCql9XXHg","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/12/15/10/37495983.png"}
+2025-03-03 15:22:39,548 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:22:39,548 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7004/admin/systems/admin-users/login
+2025-03-03 15:22:39,549 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-03 15:22:39,549 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：None
+2025-03-03 15:22:39,549 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-03 15:22:39,549 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-03 15:22:39,549 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'admin', 'password': '78b157cf49d312ecf69d1335e8b589ef', 'captcha': '1512', 'uuid': 'fghfgfhfghfgh'}
+2025-03-03 15:22:39,549 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:22:39,735 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-03 15:22:39,735 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":1,"username":"admin","department":"admin","face":"http://javashop-statics.oss-cn-beijing.aliyuncs.com/v70/null/6127372723AF44AA827917048A0C4632.GIF","role_id":22,"founder":0,"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MDk4NzE2NiwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.q9JhGb3tCCvMQXoT9eZadCu_lh49PMix8m4Th7cWdfxOepoyAXB2oWXZoDMALi6eDrvMAF8w4JQYquspdjzQwg","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MDk4Nzc2NiwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.hkh_81XUmuKmhDgvYNPcJSi4QU7KV6HfjsEUam0maRjtrrSUlviQOCSxLep9X04EVO-VdqqJB7jFK1DuXb9EJQ"}
+2025-03-03 15:22:39,736 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:22:39,736 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/login
+2025-03-03 15:22:39,736 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-03 15:22:39,736 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-03 15:22:39,737 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-03 15:22:39,737 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-03 15:22:39,737 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'shamoseller', 'password': 'fafd8b5f5d11048e8078b66ab075acb3', 'captcha': '1512', 'uuid': 'fghjklkjhgfghjk'}
+2025-03-03 15:22:39,737 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:22:40,082 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-03 15:22:40,083 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":67,"username":"shamoseller","nickname":"shamoseller","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDA5ODcxNjcsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.yBbz3c8L2EbtVbQrFMz7-LnMoK1uizbJCJiMkBQKa4AvnTDNsjxZdFaVYODvWYMMigd4jOb0XKBHThpfhVBF5Q","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDA5ODc3NjcsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.G-OcepOrss7cXPVHrjpXrEmVbj0-8vPVDWPaBvc7NgaLLgmwwxmVzUhw9ovRVVwEgA8mrzEOD8LJgE7aCE_bTw","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/9/2/11/00453826.png","role_id":0,"founder":1}
+2025-03-03 15:29:20,319 [INFO] [apiautotest] [conftest.py:51] - 日志初始化成功
+2025-03-03 15:29:20,319 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:29:20,319 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/passport/login
+2025-03-03 15:29:20,320 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-03 15:29:20,320 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-03 15:29:20,320 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'username': 'shamo', 'password': 'd8c26d069c9950eec5cc79ab7b839821', 'captcha': '1512', 'uuid': 'fsfafdsf'}
+2025-03-03 15:29:20,320 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-03 15:29:20,320 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-03 15:29:20,321 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:29:20,639 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-03 15:29:20,639 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":59,"username":"shamo","nickname":"沙陌","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDA5ODc1NjcsInVzZXJuYW1lIjoic2hhbW8ifQ.FtehU5dTs48294D1vpEmnbVafc_wZ64Lclr0EM4Qcov9NBjZBqId3tPkKItLAJmm3be42Py7Qli0z7PNVihJww","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDA5ODgxNjcsInVzZXJuYW1lIjoic2hhbW8ifQ.gzwSLQZtzfSTYlMwwpukiZIYBGTXGtCpxXulGXglxc0Jz2AKbmdooXpHiq-ZGJGukthxMfh55mLbsuYadt-0vw","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/12/15/10/37495983.png"}
+2025-03-03 15:29:20,641 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:29:20,641 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7004/admin/systems/admin-users/login
+2025-03-03 15:29:20,641 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-03 15:29:20,641 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：None
+2025-03-03 15:29:20,641 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-03 15:29:20,641 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-03 15:29:20,642 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'admin', 'password': '78b157cf49d312ecf69d1335e8b589ef', 'captcha': '1512', 'uuid': 'fghfgfhfghfgh'}
+2025-03-03 15:29:20,642 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:29:20,839 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-03 15:29:20,839 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":1,"username":"admin","department":"admin","face":"http://javashop-statics.oss-cn-beijing.aliyuncs.com/v70/null/6127372723AF44AA827917048A0C4632.GIF","role_id":22,"founder":0,"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MDk4NzU2OCwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.TFw-DTOhfNYpW60p0DsqRiMiKgTil_jvMELIdmVoqi7bH_n-_6qZEdVq50btoA2th1ZwYyD_BN2r9_vKpnX--Q","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MDk4ODE2OCwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.ui4mN8hHwFvwlvZp57w5TzRRshNil8frLsGUC9pyhMYU-WkgXIsbKFYPubr0pmff3jWx3BAeZiSrVKuxzwaGeg"}
+2025-03-03 15:29:20,840 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:29:20,840 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/login
+2025-03-03 15:29:20,840 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-03 15:29:20,840 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-03 15:29:20,840 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-03 15:29:20,840 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-03 15:29:20,841 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'shamoseller', 'password': 'fafd8b5f5d11048e8078b66ab075acb3', 'captcha': '1512', 'uuid': 'fghjklkjhgfghjk'}
+2025-03-03 15:29:20,841 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:29:21,182 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-03 15:29:21,182 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":67,"username":"shamoseller","nickname":"shamoseller","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDA5ODc1NjgsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.4-yFbfihrTUKAVtLZJ-o5X_fUYoBCL5QEkhuK_UPBSgKHSHpI-sFjhF-6iPFhgDjhNdv537559fGKCYM6yxCIA","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDA5ODgxNjgsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.qa3PiJVC_oVmvNjWzoSpJSsQ7XxsZSovpTz3pKyTfzJxQ7K0zeyU-MrwqOwUjpGUYDntgOpbJE_ulkUJf0NrHg","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/9/2/11/00453826.png","role_id":0,"founder":1}
+2025-03-03 15:29:21,196 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:29:21,197 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/goods
+2025-03-03 15:29:21,197 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-03 15:29:21,197 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDA5ODc1NjgsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.4-yFbfihrTUKAVtLZJ-o5X_fUYoBCL5QEkhuK_UPBSgKHSHpI-sFjhF-6iPFhgDjhNdv537559fGKCYM6yxCIA'}
+2025-03-03 15:29:21,197 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-03 15:29:21,198 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：{'brand_id': '', 'category_id': 83, 'category_name': '', 'goods_name': '', 'sn': 'sn011111', 'price': '800', 'mktprice': '890', 'cost': '10', 'weight': '1', 'goods_gallery_list': [{'img_id': -1, 'original': 'http://59.36.173.55:7000/statics/attachment/goods/2025/2/15/14/50101155.png', 'sort': 0}], 'quantity': 99999999, 'goods_transfee_charge': 1, 'has_changed': 0, 'market_enable': 1, 'template_id': 0, 'exchange': {'category_id': '', 'enable_exchange': 0, 'exchange_money': 0, 'exchange_point': 0}, 'shop_cat_id': 0, 'meta_description': '', 'meta_keywords': '', 'page_title': '', 'goods_params_list': [], 'sku_list': [], 'intro': '<p>商品描述</p>'}
+2025-03-03 15:29:21,198 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-03 15:29:21,201 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:29:21,235 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-03 15:29:21,236 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"商品名称不能为空"}
+2025-03-03 15:29:21,255 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:29:21,256 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/goods
+2025-03-03 15:29:21,256 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-03 15:29:21,256 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDA5ODc1NjgsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.4-yFbfihrTUKAVtLZJ-o5X_fUYoBCL5QEkhuK_UPBSgKHSHpI-sFjhF-6iPFhgDjhNdv537559fGKCYM6yxCIA'}
+2025-03-03 15:29:21,256 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-03 15:29:21,256 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：{'brand_id': '', 'category_id': 83, 'category_name': '', 'goods_name': '沙陌炒锅20241219班', 'sn': 'sn011111', 'price': '', 'mktprice': '890', 'cost': '10', 'weight': '1', 'goods_gallery_list': [{'img_id': -1, 'original': 'http://59.36.173.55:7000/statics/attachment/goods/2025/2/15/14/50101155.png', 'sort': 0}], 'quantity': 99999999, 'goods_transfee_charge': 1, 'has_changed': 0, 'market_enable': 1, 'template_id': 0, 'exchange': {'category_id': '', 'enable_exchange': 0, 'exchange_money': 0, 'exchange_point': 0}, 'shop_cat_id': 0, 'meta_description': '', 'meta_keywords': '', 'page_title': '', 'goods_params_list': [], 'sku_list': [], 'intro': '<p>商品描述</p>'}
+2025-03-03 15:29:21,256 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-03 15:29:21,260 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:29:21,296 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-03 15:29:21,296 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"商品价格不能为空"}
+2025-03-03 15:37:30,125 [INFO] [apiautotest] [conftest.py:51] - 日志初始化成功
+2025-03-03 15:37:30,126 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:37:30,126 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/passport/login
+2025-03-03 15:37:30,126 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-03 15:37:30,126 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-03 15:37:30,126 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'username': 'shamo', 'password': 'd8c26d069c9950eec5cc79ab7b839821', 'captcha': '1512', 'uuid': 'fsfafdsf'}
+2025-03-03 15:37:30,127 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-03 15:37:30,127 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-03 15:37:30,127 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:37:30,350 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-03 15:37:30,350 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":59,"username":"shamo","nickname":"沙陌","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDA5ODgwNTcsInVzZXJuYW1lIjoic2hhbW8ifQ.Y8Mn1KTAfMhV1MST2YL9ug3iiz8Ub-CcW9VCTbCK2r9w95kYaDzT8ciUMzZtCGbTFya85bQRmsbSFpURJBDc4A","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDA5ODg2NTcsInVzZXJuYW1lIjoic2hhbW8ifQ.hLRbMiJ4n2Dy8EcRDIGY64iI75BjK6yULWnR1Zxf5AYX7Zy5Opyhw7VXTuHPEWSij3PTYZaWa9At9U6XkDEA0A","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/12/15/10/37495983.png"}
+2025-03-03 15:37:30,350 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:37:30,351 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7004/admin/systems/admin-users/login
+2025-03-03 15:37:30,351 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-03 15:37:30,351 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：None
+2025-03-03 15:37:30,351 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-03 15:37:30,351 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-03 15:37:30,355 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'admin', 'password': '78b157cf49d312ecf69d1335e8b589ef', 'captcha': '1512', 'uuid': 'fghfgfhfghfgh'}
+2025-03-03 15:37:30,355 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:37:30,410 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-03 15:37:30,410 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":1,"username":"admin","department":"admin","face":"http://javashop-statics.oss-cn-beijing.aliyuncs.com/v70/null/6127372723AF44AA827917048A0C4632.GIF","role_id":22,"founder":0,"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MDk4ODA1NywidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.V0nLbfIRuzYboEOp37naVAvIXm2tf0C9IRDSMH2NCv-X33HnrNyS_kW6SnM0zMTWQJJWaVv9j2ntOa9HoF1hUQ","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MDk4ODY1NywidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.yrx7-HeZtg9BhrzULaXYF2JUAEHdQhExuvk4-LwjFWfoI2p-IvXir86RV9CFGDfhDj7U71gU8kfqoH_Qn_fYoQ"}
+2025-03-03 15:37:30,411 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:37:30,411 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/login
+2025-03-03 15:37:30,411 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-03 15:37:30,411 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-03 15:37:30,412 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-03 15:37:30,412 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-03 15:37:30,412 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'shamoseller', 'password': 'fafd8b5f5d11048e8078b66ab075acb3', 'captcha': '1512', 'uuid': 'fghjklkjhgfghjk'}
+2025-03-03 15:37:30,412 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:37:30,723 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-03 15:37:30,723 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":67,"username":"shamoseller","nickname":"shamoseller","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDA5ODgwNTcsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.SXaCfofY2EI1VnEiO4q4EeQA2qRSFzFqopqdYh8AxKSoX5Ebtn8QCg5iSdobjD5Z0N4_t9QKsHqnS9bp0KHGGw","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDA5ODg2NTcsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.9-VVkPzkZWULnarILCz-7WLspXY-1mvn9unClK5xE4ej8ThgvozdoQhBkfVEQcURk9nkSUW2iWN3O3G1p9f59w","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/9/2/11/00453826.png","role_id":0,"founder":1}
+2025-03-03 15:37:30,737 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:37:30,738 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/goods
+2025-03-03 15:37:30,738 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-03 15:37:30,738 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDA5ODgwNTcsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.SXaCfofY2EI1VnEiO4q4EeQA2qRSFzFqopqdYh8AxKSoX5Ebtn8QCg5iSdobjD5Z0N4_t9QKsHqnS9bp0KHGGw'}
+2025-03-03 15:37:30,738 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-03 15:37:30,738 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：{'brand_id': '', 'category_id': 83, 'category_name': '', 'goods_name': '', 'sn': 'sn011111', 'price': '800', 'mktprice': '890', 'cost': '10', 'weight': '1', 'goods_gallery_list': [{'img_id': -1, 'original': 'http://59.36.173.55:7000/statics/attachment/goods/2025/2/15/14/50101155.png', 'sort': 0}], 'quantity': 99999999, 'goods_transfee_charge': 1, 'has_changed': 0, 'market_enable': 1, 'template_id': 0, 'exchange': {'category_id': '', 'enable_exchange': 0, 'exchange_money': 0, 'exchange_point': 0}, 'shop_cat_id': 0, 'meta_description': '', 'meta_keywords': '', 'page_title': '', 'goods_params_list': [], 'sku_list': [], 'intro': '<p>商品描述</p>'}
+2025-03-03 15:37:30,739 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-03 15:37:30,742 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:37:30,770 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-03 15:37:30,771 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"商品名称不能为空"}
+2025-03-03 15:37:30,862 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:37:30,862 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/goods
+2025-03-03 15:37:30,863 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-03 15:37:30,863 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDA5ODgwNTcsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.SXaCfofY2EI1VnEiO4q4EeQA2qRSFzFqopqdYh8AxKSoX5Ebtn8QCg5iSdobjD5Z0N4_t9QKsHqnS9bp0KHGGw'}
+2025-03-03 15:37:30,863 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-03 15:37:30,863 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：{'brand_id': '', 'category_id': 83, 'category_name': '', 'goods_name': '沙陌炒锅20241219班', 'sn': 'sn011111', 'price': '', 'mktprice': '890', 'cost': '10', 'weight': '1', 'goods_gallery_list': [{'img_id': -1, 'original': 'http://59.36.173.55:7000/statics/attachment/goods/2025/2/15/14/50101155.png', 'sort': 0}], 'quantity': 99999999, 'goods_transfee_charge': 1, 'has_changed': 0, 'market_enable': 1, 'template_id': 0, 'exchange': {'category_id': '', 'enable_exchange': 0, 'exchange_money': 0, 'exchange_point': 0}, 'shop_cat_id': 0, 'meta_description': '', 'meta_keywords': '', 'page_title': '', 'goods_params_list': [], 'sku_list': [], 'intro': '<p>商品描述</p>'}
+2025-03-03 15:37:30,863 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-03 15:37:30,867 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:37:30,901 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-03 15:37:30,902 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"商品价格不能为空"}
+2025-03-03 15:38:16,886 [INFO] [apiautotest] [conftest.py:51] - 日志初始化成功
+2025-03-03 15:38:16,886 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:38:16,887 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/passport/login
+2025-03-03 15:38:16,887 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-03 15:38:16,887 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-03 15:38:16,887 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'username': 'shamo', 'password': 'd8c26d069c9950eec5cc79ab7b839821', 'captcha': '1512', 'uuid': 'fsfafdsf'}
+2025-03-03 15:38:16,887 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-03 15:38:16,887 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-03 15:38:16,888 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:38:17,205 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-03 15:38:17,205 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":59,"username":"shamo","nickname":"沙陌","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDA5ODgxMDQsInVzZXJuYW1lIjoic2hhbW8ifQ.eZKOOHPW1gZWlm_SUxa_erNLAD-AvJCk61abRoH-G4EhYZxHn-kxyZD4RTyiwXwYsivn2wzdAvRA3pfr_6GdsA","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDA5ODg3MDQsInVzZXJuYW1lIjoic2hhbW8ifQ.ZXL70aSfC6keCl--ApE-PgkFXfprMey5SvLv2UvL0mj6LKIjVr--l9fbZMJyH1WNDQEcQYzSSczhgppp64wNmA","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/12/15/10/37495983.png"}
+2025-03-03 15:38:17,205 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:38:17,206 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7004/admin/systems/admin-users/login
+2025-03-03 15:38:17,206 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-03 15:38:17,206 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：None
+2025-03-03 15:38:17,206 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-03 15:38:17,206 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-03 15:38:17,207 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'admin', 'password': '78b157cf49d312ecf69d1335e8b589ef', 'captcha': '1512', 'uuid': 'fghfgfhfghfgh'}
+2025-03-03 15:38:17,207 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:38:17,424 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-03 15:38:17,424 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":1,"username":"admin","department":"admin","face":"http://javashop-statics.oss-cn-beijing.aliyuncs.com/v70/null/6127372723AF44AA827917048A0C4632.GIF","role_id":22,"founder":0,"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MDk4ODEwNCwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.gKHreFCWpQNphbJYDgSe6i3V6kbz6we8U-CXVHwQwH1r6r__nopecCQJ0c2VyS__3AQ9IH5UzdxKKlvt1wFLWg","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MDk4ODcwNCwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.pS-KaJWzbvaf0lr4-X2c3cvF_gV4QXy7mN0enEfRKlN3j9zlnot8C54nJpzHTUpzlaacF6MUlnisx2GUROnTyw"}
+2025-03-03 15:38:17,424 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:38:17,425 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/login
+2025-03-03 15:38:17,425 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-03 15:38:17,425 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-03 15:38:17,425 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-03 15:38:17,425 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-03 15:38:17,425 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'shamoseller', 'password': 'fafd8b5f5d11048e8078b66ab075acb3', 'captcha': '1512', 'uuid': 'fghjklkjhgfghjk'}
+2025-03-03 15:38:17,426 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:38:17,763 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-03 15:38:17,764 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":67,"username":"shamoseller","nickname":"shamoseller","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDA5ODgxMDQsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.8DlJTmLUNS3VYnU6wniRb7XfSQZENCMt7JiKYVuAwR8afc2lh9AscvIDLaGkkCOok1QvCggeTiHDKnYD_VK5tA","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDA5ODg3MDQsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.0dNVwRKy8o9ujfNpRHag6Zrgu21uQbv6dj2puahOeWb62cMmumc-Hp3emj9Rz7fE3_JsiLCpHhE45ci86LQcyw","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/9/2/11/00453826.png","role_id":0,"founder":1}
+2025-03-03 15:38:17,777 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:38:17,777 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/goods
+2025-03-03 15:38:17,777 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-03 15:38:17,777 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDA5ODgxMDQsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.8DlJTmLUNS3VYnU6wniRb7XfSQZENCMt7JiKYVuAwR8afc2lh9AscvIDLaGkkCOok1QvCggeTiHDKnYD_VK5tA'}
+2025-03-03 15:38:17,777 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-03 15:38:17,778 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：{'brand_id': '', 'category_id': 83, 'category_name': '', 'goods_name': '', 'sn': 'sn011111', 'price': '800', 'mktprice': '890', 'cost': '10', 'weight': '1', 'goods_gallery_list': [{'img_id': -1, 'original': 'http://59.36.173.55:7000/statics/attachment/goods/2025/2/15/14/50101155.png', 'sort': 0}], 'quantity': 99999999, 'goods_transfee_charge': 1, 'has_changed': 0, 'market_enable': 1, 'template_id': 0, 'exchange': {'category_id': '', 'enable_exchange': 0, 'exchange_money': 0, 'exchange_point': 0}, 'shop_cat_id': 0, 'meta_description': '', 'meta_keywords': '', 'page_title': '', 'goods_params_list': [], 'sku_list': [], 'intro': '<p>商品描述</p>'}
+2025-03-03 15:38:17,778 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-03 15:38:17,778 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:38:17,807 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-03 15:38:17,807 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"商品名称不能为空"}
+2025-03-03 15:38:17,826 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:38:17,826 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/goods
+2025-03-03 15:38:17,826 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-03 15:38:17,826 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDA5ODgxMDQsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.8DlJTmLUNS3VYnU6wniRb7XfSQZENCMt7JiKYVuAwR8afc2lh9AscvIDLaGkkCOok1QvCggeTiHDKnYD_VK5tA'}
+2025-03-03 15:38:17,826 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-03 15:38:17,827 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：{'brand_id': '', 'category_id': 83, 'category_name': '', 'goods_name': '沙陌炒锅20241219班', 'sn': 'sn011111', 'price': '', 'mktprice': '890', 'cost': '10', 'weight': '1', 'goods_gallery_list': [{'img_id': -1, 'original': 'http://59.36.173.55:7000/statics/attachment/goods/2025/2/15/14/50101155.png', 'sort': 0}], 'quantity': 99999999, 'goods_transfee_charge': 1, 'has_changed': 0, 'market_enable': 1, 'template_id': 0, 'exchange': {'category_id': '', 'enable_exchange': 0, 'exchange_money': 0, 'exchange_point': 0}, 'shop_cat_id': 0, 'meta_description': '', 'meta_keywords': '', 'page_title': '', 'goods_params_list': [], 'sku_list': [], 'intro': '<p>商品描述</p>'}
+2025-03-03 15:38:17,827 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-03 15:38:17,828 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:38:17,868 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-03 15:38:17,868 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"商品价格不能为空"}
+2025-03-03 15:38:41,086 [INFO] [apiautotest] [conftest.py:51] - 日志初始化成功
+2025-03-03 15:38:41,086 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:38:41,086 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/passport/login
+2025-03-03 15:38:41,086 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-03 15:38:41,087 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-03 15:38:41,087 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'username': 'shamo', 'password': 'd8c26d069c9950eec5cc79ab7b839821', 'captcha': '1512', 'uuid': 'fsfafdsf'}
+2025-03-03 15:38:41,087 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-03 15:38:41,087 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-03 15:38:41,087 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:38:41,282 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-03 15:38:41,283 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":59,"username":"shamo","nickname":"沙陌","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDA5ODgxMjgsInVzZXJuYW1lIjoic2hhbW8ifQ.hV1Za97VDZxjGW50dHzCJf7b501okQYqwfvaUZkM0qKimwlexsRV4afpj45ewT-qSgXYFrqra-U9IW5K41kwfQ","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDA5ODg3MjgsInVzZXJuYW1lIjoic2hhbW8ifQ.6PAqVesJg01jc6zr0E9bxK42GqEigHOg_IwedpqpuFPUdtsv0i30baPzmwnhGxMou-ZmteUhFl_6nYMmi_zNHw","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/12/15/10/37495983.png"}
+2025-03-03 15:38:41,283 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:38:41,284 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7004/admin/systems/admin-users/login
+2025-03-03 15:38:41,284 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-03 15:38:41,284 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：None
+2025-03-03 15:38:41,284 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-03 15:38:41,284 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-03 15:38:41,288 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'admin', 'password': '78b157cf49d312ecf69d1335e8b589ef', 'captcha': '1512', 'uuid': 'fghfgfhfghfgh'}
+2025-03-03 15:38:41,288 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:38:41,359 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-03 15:38:41,359 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":1,"username":"admin","department":"admin","face":"http://javashop-statics.oss-cn-beijing.aliyuncs.com/v70/null/6127372723AF44AA827917048A0C4632.GIF","role_id":22,"founder":0,"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MDk4ODEyOCwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.iE2FHpvpYqEZ17PYyK0FJH2igw-yy3C5NUrX5weZI-nSGox-IZk_hm0NuMrJnPYrwyPIfAkdZYa2YxjJLwAXQw","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MDk4ODcyOCwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.gzLI9HVuD_Ye5I_aDTm2rPvSUluHgv-l6ZffmQogKohZMl38gjCrdb8lvP1s4NPwn-MIysGtBz4huFWTcSKuPg"}
+2025-03-03 15:38:41,360 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:38:41,360 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/login
+2025-03-03 15:38:41,360 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-03 15:38:41,360 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-03 15:38:41,360 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-03 15:38:41,361 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-03 15:38:41,361 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'shamoseller', 'password': 'fafd8b5f5d11048e8078b66ab075acb3', 'captcha': '1512', 'uuid': 'fghjklkjhgfghjk'}
+2025-03-03 15:38:41,361 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:38:41,681 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-03 15:38:41,682 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":67,"username":"shamoseller","nickname":"shamoseller","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDA5ODgxMjgsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.I1x7rXykToBUHRUZPWEZMKG41Uflkbp-UslLyE51deYUbs9SWiZrosUDXqBtflU2mS5EmRBRH6VJbtGQ0GbqMA","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDA5ODg3MjgsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.3t2p3UKAh9quB2vTpDuFnX608LA9H_OlXPJnIC1jfYZU-Pv6t4bi1GT8GvYWs6rferfKNOX2xnowKApsa2qDbA","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/9/2/11/00453826.png","role_id":0,"founder":1}
+2025-03-03 15:38:41,695 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:38:41,695 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/goods
+2025-03-03 15:38:41,695 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-03 15:38:41,695 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDA5ODgxMjgsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.I1x7rXykToBUHRUZPWEZMKG41Uflkbp-UslLyE51deYUbs9SWiZrosUDXqBtflU2mS5EmRBRH6VJbtGQ0GbqMA'}
+2025-03-03 15:38:41,696 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-03 15:38:41,696 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：{'brand_id': '', 'category_id': 83, 'category_name': '', 'goods_name': '', 'sn': 'sn011111', 'price': '800', 'mktprice': '890', 'cost': '10', 'weight': '1', 'goods_gallery_list': [{'img_id': -1, 'original': 'http://59.36.173.55:7000/statics/attachment/goods/2025/2/15/14/50101155.png', 'sort': 0}], 'quantity': 99999999, 'goods_transfee_charge': 1, 'has_changed': 0, 'market_enable': 1, 'template_id': 0, 'exchange': {'category_id': '', 'enable_exchange': 0, 'exchange_money': 0, 'exchange_point': 0}, 'shop_cat_id': 0, 'meta_description': '', 'meta_keywords': '', 'page_title': '', 'goods_params_list': [], 'sku_list': [], 'intro': '<p>商品描述</p>'}
+2025-03-03 15:38:41,696 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-03 15:38:41,701 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:38:41,728 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-03 15:38:41,729 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"商品名称不能为空"}
+2025-03-03 15:38:41,747 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:38:41,748 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/goods
+2025-03-03 15:38:41,748 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-03 15:38:41,748 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDA5ODgxMjgsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.I1x7rXykToBUHRUZPWEZMKG41Uflkbp-UslLyE51deYUbs9SWiZrosUDXqBtflU2mS5EmRBRH6VJbtGQ0GbqMA'}
+2025-03-03 15:38:41,748 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-03 15:38:41,748 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：{'brand_id': '', 'category_id': 83, 'category_name': '', 'goods_name': '沙陌炒锅20241219班', 'sn': 'sn011111', 'price': '', 'mktprice': '890', 'cost': '10', 'weight': '1', 'goods_gallery_list': [{'img_id': -1, 'original': 'http://59.36.173.55:7000/statics/attachment/goods/2025/2/15/14/50101155.png', 'sort': 0}], 'quantity': 99999999, 'goods_transfee_charge': 1, 'has_changed': 0, 'market_enable': 1, 'template_id': 0, 'exchange': {'category_id': '', 'enable_exchange': 0, 'exchange_money': 0, 'exchange_point': 0}, 'shop_cat_id': 0, 'meta_description': '', 'meta_keywords': '', 'page_title': '', 'goods_params_list': [], 'sku_list': [], 'intro': '<p>商品描述</p>'}
+2025-03-03 15:38:41,749 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-03 15:38:41,752 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:38:41,793 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-03 15:38:41,793 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"商品价格不能为空"}
+2025-03-03 15:59:33,682 [INFO] [apiautotest] [conftest.py:51] - 日志初始化成功
+2025-03-03 15:59:33,683 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:59:33,683 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7002/passport/login
+2025-03-03 15:59:33,683 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-03 15:59:33,683 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-03 15:59:33,683 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：{'username': 'shamo', 'password': 'd8c26d069c9950eec5cc79ab7b839821', 'captcha': '1512', 'uuid': 'fsfafdsf'}
+2025-03-03 15:59:33,683 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-03 15:59:33,684 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-03 15:59:33,684 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:59:33,889 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-03 15:59:33,889 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":59,"username":"shamo","nickname":"沙陌","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDA5ODkzODEsInVzZXJuYW1lIjoic2hhbW8ifQ.N5bYkwN8PueIUmLtxYCPD5dQ_Wr4AtoxIFmZylOIvmzag9kFs6j47nlv9hsbJwXgAZFvyeGjiF8tGRJ4mwiddw","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuWwj-a1t-ixmiIsImNsZXJrSWQiOjE1MiwidXVpZCI6bnVsbCwidWlkIjo1OSwic2VsbGVySWQiOjE5OSwiY2xlcmtOYW1lIjoic2hhbW8iLCJleHAiOjE3NDA5ODk5ODEsInVzZXJuYW1lIjoic2hhbW8ifQ.pCcgN6U9Jes7z2Y8siyLMBygjdsAVhqIXi9NbTQeGApXKeRBY4m8dmKcZH7lrWUXrt7Ql_GsvDYwfv8H2GYavQ","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/12/15/10/37495983.png"}
+2025-03-03 15:59:33,890 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:59:33,890 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7004/admin/systems/admin-users/login
+2025-03-03 15:59:33,890 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-03 15:59:33,890 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：None
+2025-03-03 15:59:33,890 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-03 15:59:33,890 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-03 15:59:33,892 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'admin', 'password': '78b157cf49d312ecf69d1335e8b589ef', 'captcha': '1512', 'uuid': 'fghfgfhfghfgh'}
+2025-03-03 15:59:33,892 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:59:34,115 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-03 15:59:34,115 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":1,"username":"admin","department":"admin","face":"http://javashop-statics.oss-cn-beijing.aliyuncs.com/v70/null/6127372723AF44AA827917048A0C4632.GIF","role_id":22,"founder":0,"access_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MDk4OTM4MSwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.SelKVsCrXad2RqnTn9i8LpmvoAvLFX9zKm0x41E3EMgrn_S0_92eJDw_rVhLBhPr6m464yt3C6uleNGQ2thTgw","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjEsInN1YiI6IkFETUlOIiwicm9sZSI6IueuoeeQhuWRmCIsImZvdW5kZXIiOm51bGwsImV4cCI6MTc0MDk4OTk4MSwidXVpZCI6bnVsbCwidXNlcm5hbWUiOiJhZG1pbiJ9.sCweAd4BC6kAfI9tbe8c0Dw4vZosDq6ILxlQ2_gzxWQpTLZ46HpFAdviw4KMF3Ch-gDzzorm1VAodon-A62fpA"}
+2025-03-03 15:59:34,116 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:59:34,116 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/login
+2025-03-03 15:59:34,116 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：get
+2025-03-03 15:59:34,116 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': ''}
+2025-03-03 15:59:34,116 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-03 15:59:34,117 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：None
+2025-03-03 15:59:34,117 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：{'username': 'shamoseller', 'password': 'fafd8b5f5d11048e8078b66ab075acb3', 'captcha': '1512', 'uuid': 'fghjklkjhgfghjk'}
+2025-03-03 15:59:34,117 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:59:34,438 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：200
+2025-03-03 15:59:34,438 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"uid":67,"username":"shamoseller","nickname":"shamoseller","access_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDA5ODkzODEsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.9I5yPCxzA8gh8zFBYffT0RUDwaHW57bdJqnQ_VZ5lc8RTSH09hvG_1FAqoBSVLqZ9xFzpTeFfy0VV3F_ZOnz0w","refresh_token":"eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDA5ODk5ODEsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ._lZJjnGZ79Uc7Wl4IM7cdp_rt-mzwx21VqiQDmfVTqsGMyZGK_lTNmcgdHGjVX60iYmE-Y9p-QrbZwaxLM1kRw","face":"http://59.36.173.55:7000/statics/attachment/normal/2024/9/2/11/00453826.png","role_id":0,"founder":1}
+2025-03-03 15:59:34,451 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:59:34,452 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/goods
+2025-03-03 15:59:34,452 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-03 15:59:34,452 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDA5ODkzODEsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.9I5yPCxzA8gh8zFBYffT0RUDwaHW57bdJqnQ_VZ5lc8RTSH09hvG_1FAqoBSVLqZ9xFzpTeFfy0VV3F_ZOnz0w'}
+2025-03-03 15:59:34,452 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-03 15:59:34,452 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：{'brand_id': '', 'category_id': 83, 'category_name': '', 'goods_name': '', 'sn': 'sn011111', 'price': '800', 'mktprice': '890', 'cost': '10', 'weight': '1', 'goods_gallery_list': [{'img_id': -1, 'original': 'http://59.36.173.55:7000/statics/attachment/goods/2025/2/15/14/50101155.png', 'sort': 0}], 'quantity': 99999999, 'goods_transfee_charge': 1, 'has_changed': 0, 'market_enable': 1, 'template_id': 0, 'exchange': {'category_id': '', 'enable_exchange': 0, 'exchange_money': 0, 'exchange_point': 0}, 'shop_cat_id': 0, 'meta_description': '', 'meta_keywords': '', 'page_title': '', 'goods_params_list': [], 'sku_list': [], 'intro': '<p>商品描述</p>'}
+2025-03-03 15:59:34,452 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-03 15:59:34,453 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:59:34,482 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-03 15:59:34,483 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"商品名称不能为空"}
+2025-03-03 15:59:34,501 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:59:34,502 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/goods
+2025-03-03 15:59:34,502 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-03 15:59:34,502 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDA5ODkzODEsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.9I5yPCxzA8gh8zFBYffT0RUDwaHW57bdJqnQ_VZ5lc8RTSH09hvG_1FAqoBSVLqZ9xFzpTeFfy0VV3F_ZOnz0w'}
+2025-03-03 15:59:34,502 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-03 15:59:34,502 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：{'brand_id': '', 'category_id': 83, 'category_name': '', 'sn': 'sn011111', 'price': '800', 'mktprice': '890', 'cost': '10', 'weight': '1', 'goods_gallery_list': [{'img_id': -1, 'original': 'http://59.36.173.55:7000/statics/attachment/goods/2025/2/15/14/50101155.png', 'sort': 0}], 'quantity': 99999999, 'goods_transfee_charge': 1, 'has_changed': 0, 'market_enable': 1, 'template_id': 0, 'exchange': {'category_id': '', 'enable_exchange': 0, 'exchange_money': 0, 'exchange_point': 0}, 'shop_cat_id': 0, 'meta_description': '', 'meta_keywords': '', 'page_title': '', 'goods_params_list': [], 'sku_list': [], 'intro': '<p>商品描述</p>'}
+2025-03-03 15:59:34,503 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-03 15:59:34,506 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:59:34,547 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-03 15:59:34,548 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"商品名称不能为空"}
+2025-03-03 15:59:34,566 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:59:34,566 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/goods
+2025-03-03 15:59:34,566 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-03 15:59:34,567 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDA5ODkzODEsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.9I5yPCxzA8gh8zFBYffT0RUDwaHW57bdJqnQ_VZ5lc8RTSH09hvG_1FAqoBSVLqZ9xFzpTeFfy0VV3F_ZOnz0w'}
+2025-03-03 15:59:34,567 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-03 15:59:34,567 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：{'brand_id': '', 'category_id': 83, 'category_name': '', 'goods_name': '沙陌炒锅20241219班', 'sn': 'sn011111', 'price': '', 'mktprice': '890', 'cost': '10', 'weight': '1', 'goods_gallery_list': [{'img_id': -1, 'original': 'http://59.36.173.55:7000/statics/attachment/goods/2025/2/15/14/50101155.png', 'sort': 0}], 'quantity': 99999999, 'goods_transfee_charge': 1, 'has_changed': 0, 'market_enable': 1, 'template_id': 0, 'exchange': {'category_id': '', 'enable_exchange': 0, 'exchange_money': 0, 'exchange_point': 0}, 'shop_cat_id': 0, 'meta_description': '', 'meta_keywords': '', 'page_title': '', 'goods_params_list': [], 'sku_list': [], 'intro': '<p>商品描述</p>'}
+2025-03-03 15:59:34,567 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-03 15:59:34,571 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:59:34,611 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-03 15:59:34,611 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"商品价格不能为空"}
+2025-03-03 15:59:34,630 [DEBUG] [apiautotest] [client.py:28] - <=====================================================>
+2025-03-03 15:59:34,630 [DEBUG] [apiautotest] [client.py:29] - 发起接口调用，url：http://59.36.173.55:7003/seller/goods
+2025-03-03 15:59:34,630 [DEBUG] [apiautotest] [client.py:30] - 发起接口调用，method：post
+2025-03-03 15:59:34,631 [DEBUG] [apiautotest] [client.py:31] - 发起接口调用，header：{'Authorization': 'eyJhbGciOiJIUzUxMiJ9.eyJzZWxmT3BlcmF0ZWQiOjAsInN1YiI6IkNMRVJLIiwicm9sZSI6IlNVUEVSX1NFTExFUiIsImZvdW5kZXIiOm51bGwsInJvbGVzIjpbIkJVWUVSIiwiU0VMTEVSIiwiQ0xFUksiXSwic2VsbGVyTmFtZSI6IuaymemZjOeahOW6l-S4jeimgeeejuaUuSIsImNsZXJrSWQiOjgsInV1aWQiOm51bGwsInVpZCI6NjcsInNlbGxlcklkIjoyMCwiY2xlcmtOYW1lIjoic2hhbW9zZWxsZXIiLCJleHAiOjE3NDA5ODkzODEsInVzZXJuYW1lIjoic2hhbW9zZWxsZXIifQ.9I5yPCxzA8gh8zFBYffT0RUDwaHW57bdJqnQ_VZ5lc8RTSH09hvG_1FAqoBSVLqZ9xFzpTeFfy0VV3F_ZOnz0w'}
+2025-03-03 15:59:34,631 [DEBUG] [apiautotest] [client.py:32] - 发起接口调用，data：None
+2025-03-03 15:59:34,631 [DEBUG] [apiautotest] [client.py:33] - 发起接口调用，json：{'brand_id': '', 'category_id': 83, 'category_name': '', 'goods_name': '沙陌炒锅20241219班', 'sn': 'sn011111', 'mktprice': '890', 'cost': '10', 'weight': '1', 'goods_gallery_list': [{'img_id': -1, 'original': 'http://59.36.173.55:7000/statics/attachment/goods/2025/2/15/14/50101155.png', 'sort': 0}], 'quantity': 99999999, 'goods_transfee_charge': 1, 'has_changed': 0, 'market_enable': 1, 'template_id': 0, 'exchange': {'category_id': '', 'enable_exchange': 0, 'exchange_money': 0, 'exchange_point': 0}, 'shop_cat_id': 0, 'meta_description': '', 'meta_keywords': '', 'page_title': '', 'goods_params_list': [], 'sku_list': [], 'intro': '<p>商品描述</p>'}
+2025-03-03 15:59:34,631 [DEBUG] [apiautotest] [client.py:34] - 发起接口调用，params：None
+2025-03-03 15:59:34,634 [DEBUG] [apiautotest] [client.py:35] - 发起接口调用，files：None
+2025-03-03 15:59:34,677 [DEBUG] [apiautotest] [client.py:48] - 接口响应状态码：400
+2025-03-03 15:59:34,677 [DEBUG] [apiautotest] [client.py:49] - 接口调用返回结果：{"code":"004","message":"商品价格不能为空"}

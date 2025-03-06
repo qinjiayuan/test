@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\ntestcase\\buyer\\test_001_buy_now.py:17: AssumptionFailure\n>>\tpytest.assume(resp.status_code==200,f\"期望值：200，实际值：{resp.status_code}\")\nAssertionError: 期望值：200，实际值：403\nassert False",
+      "children" : [ {
+        "name" : "test_buy_now",
+        "uid" : "9ea6f4423192abe4",
+        "parentUid" : "fb2260e63a5ac7d57a8a6f542111ba76",
+        "status" : "failed",
+        "time" : {
+          "start" : 1740226743981,
+          "stop" : 1740226744233,
+          "duration" : 252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb2260e63a5ac7d57a8a6f542111ba76"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
