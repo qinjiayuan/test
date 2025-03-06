@@ -31,6 +31,4 @@ if __name__ == '__main__':
     pytest.main()
 
     os.system("allure serve report/data ")
-
-
-
+#这是我提交的
